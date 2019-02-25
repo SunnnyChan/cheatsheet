@@ -1,6 +1,6 @@
 # sc.handbook
 
-* [Computer Terms](Term.smd)
+* [Computer Terms](terms/README.smd)
 
 * [Linux 命令](CMD/README.md)
 * [Linux 命令行](CMD-line/README.md)
