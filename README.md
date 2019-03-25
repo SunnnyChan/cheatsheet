@@ -11,6 +11,7 @@
 
 ## Develop
 * [vim](dev/vim.md)
+* [Git](dev/Git.md)
 * [Github](dev/Github.md)
 
 ## Tools
