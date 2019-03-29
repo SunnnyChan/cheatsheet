@@ -11,6 +11,8 @@
 
 ## Develop
 * [vim](dev/vim.md)
+* [Intellij IDEA](IDEA/README.md)
+
 * [Git](dev/Git.md)
 * [Github](dev/Github.md)
 
