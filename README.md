@@ -16,10 +16,14 @@
 * [Git](dev/Git.md)
 * [Github](dev/Github.md)
 
-## Tools
-* [Markdown]()
+## Editor
+* [Markdown](editor/Markdown.md)
 > * [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)
+
+## Tools
 * [MacOS](tools/MacOS.md)
+* [Chrome][]
+
 
 ### Oneline Tools
 * [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
