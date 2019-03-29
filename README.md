@@ -22,7 +22,7 @@
 
 ## Tools
 * [MacOS](tools/MacOS.md)
-* [Chrome][]
+* [Chrome](tools/Chrome.md)
 
 
 ### Oneline Tools
