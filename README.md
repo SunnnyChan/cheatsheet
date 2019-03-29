@@ -1,6 +1,6 @@
 # sc.handbook
 
-## [Computer Terms](terms/README.smd)
+## [Terms](terms/README.md)
 
 ## Shell
 * [Linux Command](CMD/README.md)
