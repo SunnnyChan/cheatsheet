@@ -10,3 +10,8 @@
 ## Plugins
 * SequenceDiagram 代码生成时序图
 * PlantUML Markdown语法UML图
+
+## Theme
+```md
+Editor –> Color Scheme –> Color Scheme Font
+```
