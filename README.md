@@ -10,8 +10,9 @@
 * [awk](/CMD/file&text/awk.md)
 
 ## Develop
-* [vim](dev/vim.md)
+* [Vim](dev/vim.md)
 * [Intellij IDEA](IDEA/README.md)
+* [VS Code](dev/VSCode.md)
 
 * [Git](dev/Git.md)
 * [Github](dev/Github.md)
