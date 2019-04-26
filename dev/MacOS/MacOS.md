@@ -1,11 +1,14 @@
 # MacOS Handbook
 
-## 
-* .bash rc
-```shell
-export PS1="\[\e[36m\][\[\e[36m\]\u\[\e[0m\]@\h \[\e[32m\]\w\[\e[36m\]]\[\e[0m\]\\$"
-alias ll="ls -l "
+## .bash_profile
+```sh
+alias ll="ls -G -l "
+alias l1="ls -G -1 "
+alias grep="grep -n --color "
+alias fgrep="fgrep -n --color "
 ```
+
+## 
 * brew
 ```sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

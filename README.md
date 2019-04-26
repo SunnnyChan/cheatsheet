@@ -10,19 +10,22 @@
 * [awk](/CMD/file&text/awk.md)
 
 ## Develop
-* [Vim](dev/vim.md)
-* [Intellij IDEA](IDEA/README.md)
+* [Centos](dev/Linux/centos/Centos.md)
+* [MacOS](dev/MacOS/MacOS.md)
+* [Vim](dev/vim/vim.md)
+* [Intellij IDEA](dev/IDEA/README.md)
 * [VS Code](dev/VSCode.md)
 
 * [Git](dev/Git.md)
 * [Github](dev/Github.md)
+
+* [Tmux](dev/Linux/tmux/tmux.md)
 
 ## Editor
 * [Markdown](editor/Markdown.md)
 > * [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)
 
 ## Tools
-* [MacOS](tools/MacOS.md)
 * [Chrome](tools/Chrome.md)
 
 
