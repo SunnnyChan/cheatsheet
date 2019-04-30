@@ -1,5 +1,8 @@
 # Linux Command
 
+
+*  rsync -av --exclude "logs/"  /data/dc star@10.3.111.111:/home/deploy
+
 ## File & Text
 * [grep](grep.md)
 

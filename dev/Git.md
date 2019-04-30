@@ -18,7 +18,3 @@ git config --local  --list
 $ git config --global user.email XXX
 $ git config --global user.name XXX
 ```
-
-## Resources
-* [Git 指南](https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5)
-* [GIT 常用命令](https://www.cnblogs.com/chenwolong/p/GIT.html)

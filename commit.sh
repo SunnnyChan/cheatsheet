@@ -7,3 +7,5 @@ github() {
 }
 
 github add . && github commit -m "sunnychan" && github push
+
+

@@ -9,3 +9,12 @@
   ◆ 节点网页：Capture node screenshot
   ◆ 当前屏幕：Capture screenshot
 ```
+
+* install extension
+```sh
+mv extension.crx extension.zip
+unzip extension.zip
+```
+```md
+扩展程序 -> 开发者模式 -> 加载已解压的扩展程序
+```
