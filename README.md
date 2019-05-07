@@ -2,13 +2,6 @@
 
 ## [Terms](terms/README.md)
 
-## Shell
-* [Linux Command](CMD/README.md)
-* [Linux Command Line](CMD-line/README.md)
-
-* [sed](/CMD/file&text/sed.md)
-* [awk](/CMD/file&text/awk.md)
-
 ## Develop
 * [Centos](dev/Linux/centos/Centos.md)
 * [MacOS](dev/MacOS/MacOS.md)

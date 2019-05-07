@@ -9,6 +9,7 @@ alias ll="ls -G -l "
 alias l1="ls -G -1 "
 alias grep="grep -n --color "
 alias fgrep="fgrep -n --color "
+alias which='alias | gwhich --tty-only --read-alias --show-dot --show-tilde'
 ```
 
 ## 
