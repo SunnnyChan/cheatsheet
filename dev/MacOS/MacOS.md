@@ -1,7 +1,8 @@
 # MacOS Handbook
 
-
-* 强制退出Mac程序 Command+Option+Shift+Esc
+## Hot Key
+* Command + Option + Shift + Esc //强制退出程序
+* Command + Space -> 输入“Activity Monitor” //打开任务管理器
 
 ## .bash_profile
 ```sh
@@ -24,5 +25,4 @@ brew install scala
 
 * [iTerm](https://www.cnblogs.com/soyxiaobi/p/9695931.html)
 
-## Hot Key
-* Command + Option + Shift + Esc //强制退出程序
+

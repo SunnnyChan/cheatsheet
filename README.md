@@ -3,7 +3,7 @@
 ## [Terms](terms/README.md)
 
 ## Develop
-* [Centos](dev/Linux/centos/Centos.md)
+* [Centos](dev/Linux/Centos.md)
 * [MacOS](dev/MacOS/MacOS.md)
 * [Vim](dev/vim/vim.md)
 * [Intellij IDEA](dev/IDEA/README.md)

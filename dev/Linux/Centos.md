@@ -25,22 +25,36 @@ yum  provides  */nslookup
 yum list java*
 ```
 ### 常用安装
+#### tools
+```sh
+yum install -y lsof.x86_64
+yum -q install /usr/bin/iostat
+yum install bind-utils -y   # nslookup
+yum install man
+yum install unzip
+yum install lrzsz // rz、sz
+```
+
+#### Dev
 ```sh
 yum install -y git
-yum -y install maven.noarch
+```
 
-
+```sh
 yum install -y java-1.8.0-openjdk.x86_64
 yum install -y python3.x86_64
 yum install groovy.noarch
 yum install scala.x86_64
+```
 
+##### C Dev
+```sh
+yum install install autoconf automake libtool
 yum install gdb
+```
 
-yum install -y lsof.x86_64
-yum -q install /usr/bin/iostat
-yum install bind-utils -y   # nslookup
+#### Java Dev
+```sh
+yum -y install maven.noarch
 yum install -y java-11-openjdk-devel.x86_64 #jps
-yum install man
-yum install unzip
 ```
