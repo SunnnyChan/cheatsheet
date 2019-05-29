@@ -28,11 +28,13 @@ yum list java*
 #### tools
 ```sh
 yum install -y lsof.x86_64
-yum -q install /usr/bin/iostat
-yum install bind-utils -y   # nslookup
 yum install man
 yum install unzip
 yum install lrzsz // rz、sz
+
+yum -q install /usr/bin/iostat
+
+yum install bind-utils -y   # nslookup
 ```
 
 #### Dev
