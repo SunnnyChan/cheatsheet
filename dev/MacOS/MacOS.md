@@ -14,7 +14,7 @@ alias which='alias | gwhich --tty-only --read-alias --show-dot --show-tilde'
 ```
 
 ## 
-* brew
+* [brew](https://brew.sh/index_zh-cn)
 ```sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
