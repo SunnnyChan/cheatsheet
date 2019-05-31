@@ -60,3 +60,5 @@ yum install gdb
 yum -y install maven.noarch
 yum install -y java-11-openjdk-devel.x86_64 #jps
 ```
+
+## rpm
