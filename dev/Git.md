@@ -13,8 +13,15 @@ git config --system --list
 git config --global  --list
 git config --local  --list
 ```
-* 设置
+* 用户信息
 ```sh
 $ git config --global user.email XXX
 $ git config --global user.name XXX
 ```
+
+* git 默认对于文件名大小写是不敏感的
+```sh 
+$ git config core.ignorecase false
+```
+
+## 
