@@ -21,8 +21,11 @@
 ## 问题
 ```md
 默认情况下如果你本地把文件夹小写的修改成大写的，然后提交，会导致github上存在一份大写的和一份小写的文件夹。
-```
 
+* 要删除掉github上的小写文件，需要做的是:
+本地执行 git rm -r --cached . 
+然后重新 git push
+```
 
 ## [GitHub Flavored Markdown 简称 GFM](https://github.com/guodongxiaren/README)
 * [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
