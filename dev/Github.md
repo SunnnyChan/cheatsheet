@@ -26,6 +26,9 @@
 本地执行 git rm -r --cached . 
 然后重新 git push
 ```
-
-## [GitHub Flavored Markdown 简称 GFM](https://github.com/guodongxiaren/README)
+## Github 工具
+* [Github Flavored Markdown 语法介绍](https://github.com/guodongxiaren/README)
 * [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+```sh 
+gh-md-toc README.md  
+```
