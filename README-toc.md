@@ -1,7 +1,7 @@
-# OneLine Tools
+# OneLine Tools （在线工具）
 ## [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
 
-# [Terms](collection/Terms.md)
+# [Computer Terms（计算机术语）](collection/Terms.md)
 
 # [Git](dev/Git.md)
 
