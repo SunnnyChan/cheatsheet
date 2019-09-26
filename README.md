@@ -54,5 +54,6 @@ Table of Contents
       * [<a href="editor/Markdown.md">Markdown</a>](#markdown)
       * [<a href="editor/XMind.md">XMind</a>](#xmind)
    * [OneLine Tools](#oneline-tools)
+      * [<a href="http://www.docpe.com/excel/excel-to-html.aspx" rel="nofollow">Excel 转 HTML</a>](#excel-转-html)
    * [Resources](#resources)
 
