@@ -4,6 +4,8 @@ Table of Contents
 =================
 
    * [<a href="collection/Terms.md">Terms</a>](#terms)
+      * [截屏](#截屏)
+      * [extensions](#extensions)
    * [<a href="collection/Linux.md">Linux</a>](#linux)
    * [<a href="collection/MacOS.md">MacOS</a>](#macos)
    * [<a href="collection/Chrome.md">Chrome</a>](#chrome)
