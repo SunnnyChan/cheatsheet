@@ -3,9 +3,9 @@
 Table of Contents
 =================
 
-   * [OneLine Tools](#oneline-tools)
+   * [OneLine Tools （在线工具）](#oneline-tools-在线工具)
       * [<a href="http://www.docpe.com/excel/excel-to-html.aspx" rel="nofollow">Excel 转 HTML</a>](#excel-转-html)
-   * [<a href="collection/Terms.md">Terms</a>](#terms)
+   * [<a href="collection/Terms.md">Computer Terms（计算机术语）</a>](#computer-terms计算机术语)
    * [<a href="dev/Git.md">Git</a>](#git)
    * [<a href="dev/Github.md">Github</a>](#github)
       * [<a href="#搜索">搜索</a>](#搜索)
