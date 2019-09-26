@@ -1,6 +1,4 @@
-# Git
-
-## Config
+# Config
 ```md
 config 配置有system级别 global（用户级别） 和local（当前仓库）
 设置先从system-》global-》local  底层配置会覆盖顶层配置
@@ -22,6 +20,4 @@ $ git config --global user.name XXX
 * git 默认对于文件名大小写是不敏感的
 ```sh 
 $ git config core.ignorecase false
-```
-
-## 
+``` 

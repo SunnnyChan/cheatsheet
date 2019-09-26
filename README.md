@@ -1,29 +1,21 @@
-# sc.handbook
+# CheatSheet
 
-## [Terms](terms/README.md)
+Table of Contents
+=================
 
-## Develop
-* [Centos](dev/Linux/Centos.md)
-* [MacOS](dev/MacOS/MacOS.md)
-* [Vim](dev/vim/vim.md)
-* [Intellij IDEA](dev/IDEA/README.md)
-* [VS Code](dev/VSCode.md)
+   * [<a href="collection/Terms.md">Terms</a>](#terms)
+   * [<a href="collection/Linux.md">Linux</a>](#linux)
+   * [<a href="collection/MacOS.md">MacOS</a>](#macos)
+   * [<a href="collection/Chrome.md">Chrome</a>](#chrome)
+   * [Develop](#develop)
+      * [<a href="dev/IDEA.md">Intellij IDEA</a>](#intellij-idea)
+      * [<a href="dev/VSCode.md">VS Code</a>](#vs-code)
+      * [<a href="dev/Vim.md">Vim</a>](#vim)
+      * [<a href="dev/Git.md">Git</a>](#git)
+      * [<a href="dev/Github.md">Github</a>](#github)
+      * [Editor](#editor)
+      * [<a href="editor/Markdown.md">Markdown</a>](#markdown)
+      * [<a href="editor/XMind.md">XMind</a>](#xmind)
+   * [OneLine Tools](#oneline-tools)
+   * [Resources](#resources)
 
-* [Git](dev/Git.md)
-* [Github](dev/Github.md)
-
-* [Tmux](dev/Linux/tmux/tmux.md)
-
-## Editor
-* [Markdown](editor/Markdown.md)
-> * [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)
-
-## Tools
-* [Chrome](tools/Chrome.md)
-
-
-### Oneline Tools
-* [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
-
-## Resources
-* [超级速查表 - 编程语言、框架和开发工具的速查表](https://github.com/skywind3000/awesome-cheatsheets)

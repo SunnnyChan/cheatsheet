@@ -1,5 +1,4 @@
 # Centos
-
 ```sh
 # cat /etc/*release*
 ```
@@ -16,17 +15,18 @@ alias fgrep="fgrep -n --color "
 ```
 
 ## Yum
-### yum 安装实例
-* 查找工具所在的软件包
 ```sh
+# 安装实例
+# 查找工具所在的软件包
 yum  provides  */nslookup
 ```
 ```sh
 yum list java*
 ```
-### 常用安装
-#### tools
+
 ```sh
+# 常用安装
+## tools
 yum install -y lsof.x86_64
 yum install man
 yum install unzip
@@ -36,29 +36,32 @@ yum -q install /usr/bin/iostat
 
 yum install bind-utils -y   # nslookup
 ```
-
-#### Dev
 ```sh
+## Dev
 yum install -y git
 ```
-
 ```sh
 yum install -y java-1.8.0-openjdk.x86_64
 yum install -y python3.x86_64
 yum install groovy.noarch
 yum install scala.x86_64
 ```
-
-##### C Dev
 ```sh
+# C Dev
 yum install install autoconf automake libtool
 yum install gdb
 ```
-
-#### Java Dev
 ```sh
+# Java Dev
 yum -y install maven.noarch
 yum install -y java-11-openjdk-devel.x86_64 #jps
 ```
-
 ## rpm
+
+# tmux
+* ~/.tmux.conf
+```bash
+set -g default-terminal "screen-256color" 
+```
+* Plugins
+[Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
