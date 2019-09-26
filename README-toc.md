@@ -2,8 +2,11 @@
 # [Terms](collection/Terms.md)
 
 # [Linux](collection/Linux.md)
+## [.bashrc](collection/Linux.md#bashrc)
+### [配置 alias 别名](collection/Linux.md#配置-alias-别名)
+### [函数化](collection/Linux.md#函数化)
+### [常用配置](collection/Linux.md#常用配置)
 ## [Centos](#centos)
-### [~/.bash_profile](collection/Linux.md#bash_profile)
 ### [Yum](collection/Linux.md#yum)
 ### [rpm](collection/Linux.md#rpm)
 ## [tmux](collection/Linux.md#tmux)
