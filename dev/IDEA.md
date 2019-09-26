@@ -1,4 +1,4 @@
-Table of Contents
+IDEA
 =================
 
    * [Plugins](#plugins)
@@ -7,7 +7,7 @@ Table of Contents
    * [Theme](#theme)
    * [Q&amp;A](#qa)
       * [<a href="http://sbytestream.pythonanywhere.com/blog/How-to-fix-IntelliJ-cannot-resolve-symbol" rel="nofollow">How to fix IntelliJ cannot resolve symbol</a>](#how-to-fix-intellij-cannot-resolve-symbol)
-
+      
 # Plugins
 ## SequenceDiagram 代码生成时序图
 ## PlantUML Markdown语法UML图

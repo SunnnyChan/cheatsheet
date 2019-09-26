@@ -1,3 +1,9 @@
+Chrome
+=================
+
+   * [截屏](#截屏)
+   * [extensions](#extensions)
+
 # 截屏
 ```md
 1. Ctrl+Shift+I（Windows）/F12 或者 Alt+Command+I（Mac）

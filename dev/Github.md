@@ -1,4 +1,4 @@
-Table of Contents
+Github
 =================
 
    * [搜索](#搜索)
@@ -7,7 +7,7 @@ Table of Contents
       * [gh-md-toc](#gh-md-toc)
    * [Q&amp;A](#qa)
       * [Github 文件名大小写不敏感](#github-文件名大小写不敏感)
-      
+
 # 搜索
 * in:name 仓库名搜索
 * in:descripton

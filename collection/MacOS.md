@@ -1,4 +1,4 @@
-Table of Contents
+MacOS
 =================
 
    * [Hot Key](#hot-key)
@@ -6,7 +6,7 @@ Table of Contents
    * [.bash_profile](#bash_profile)
    * [Tools](#tools)
       * [brew](#brew)
-
+      
 # Hot Key
 * Command + Option + Shift + Esc //强制退出程序
 * Command + Space -> 输入“Activity Monitor” //打开任务管理器
