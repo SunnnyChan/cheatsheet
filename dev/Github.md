@@ -8,6 +8,16 @@ Github
    * [Q&amp;A](#qa)
       * [Github 文件名大小写不敏感](#github-文件名大小写不敏感)
 
+# Hotkey
+* 快捷键: t 和 w
+```md
+源码浏览页面，按t可以快速进入模糊文件名搜索模式。
+仓库主页，按w可以快速进行分支过滤
+任意GitHub页面中，按?展示当前页面可用的快捷键
+```
+* 忽略空格: ?w=1  - 在任意的diff URL添加?w=1用来整理缩进
+* 按范围过滤提交记录: master@{time}..master
+
 # 搜索
 * in:name 仓库名搜索
 * in:descripton
