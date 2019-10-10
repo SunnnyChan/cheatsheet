@@ -1,5 +1,13 @@
 # OneLine Tools （在线工具）
-## [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
+## 开发工具
+### [Logo搜索 - 寻找产品logo](http://instantlogosearch.com/)
+
+## 文件处理
+### [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
+### [在线PS](https://ps.gaoding.com/#/?hmsr=zc-cc)
+
+## Misc
+### [临时邮箱 - 临时注册一个网站，但不想用真实邮箱](https://linshiyouxiang.net/)
 
 # [Computer Terms（计算机术语）](collection/Terms.md)
 
