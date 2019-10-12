@@ -33,7 +33,7 @@ alias left='ls -t -1'
 alias count='find . -type f | wc -l'
 
 # 只查看挂载的驱动器
-alias mnt='mount | awk -F' ' '{ printf "%s\t%s\n",$1,$3; }' | column -t | egrep ^/dev/ | sort'
+alias mnt="mount | awk -F' ' '{ printf "%s\t%s\n",$1,$3; }' | column -t | egrep ^/dev/ | sort"
 alias mnt='mount | grep -E ^/dev | column -t' #MacOS
 
 # grep 历史中查找命令
@@ -81,7 +81,6 @@ export PS1="\[\e[36m\][\[\e[36m\]\u\[\e[0m\]@\h \[\e[32m\]\w\[\e[36m\]]\[\e[0m\]
 
 alias ll="ls -l "
 alias l1="ls -1"
-alias essh="ssh blj.elenet.me -l guang.chen"
 alias grep="grep -n --color "
 alias fgrep="fgrep -n --color "
 ```
@@ -135,6 +134,11 @@ yum install -y java-11-openjdk-devel.x86_64 #jps
 ## rpm
 
 # tmux
+```bash
+yum install libevent-devel ncurses-devel
+yum list tmux
+yum install tmux.x86_64
+```
 * ~/.tmux.conf
 ```bash
 set -g default-terminal "screen-256color" 
