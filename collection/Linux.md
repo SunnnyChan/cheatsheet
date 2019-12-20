@@ -9,6 +9,7 @@ Linux
       * [Yum](#yum)
       * [rpm](#rpm)
    * [tmux](#tmux)
+   
 # .bashrc
 ## 配置 alias 别名
 * 设置
