@@ -4,4 +4,4 @@
 # MacOS
 .DS_Store
 
-.vuepress
+dist/
