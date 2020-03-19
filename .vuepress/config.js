@@ -43,6 +43,9 @@ module.exports = {
         path: '/linux/',      // 可选的
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/vim/'
+        ]
       },
       {
         title: 'MacOS 工具',   // 必要的
@@ -52,12 +55,12 @@ module.exports = {
       },
       {
         title: '知识工具',   // 必要的
-        path: '/linux/',      // 可选的
+        path: '/knowledge/',      // 可选的
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
-          '/editor/markdown/',
-          '/editor/xmind/'
+          '/markdown/',
+          '/xmind/'
         ]
       }
     ]
