@@ -27,4 +27,3 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ## [Vim](http://112.126.103.179/archives/vim)
 
 # [MacOS](collection/macos.md)
-
