@@ -3,6 +3,8 @@ home: false
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)  
+
 [更好的阅读体验](https://sunnnychan.github.io/cheatsheet/)
  
 # [OneLine Tools （在线工具）](ol-tools/README.md)
