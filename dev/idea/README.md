@@ -1,5 +1,4 @@
-IDEA
-=================
+# Intellij IDEA
 
    * [Plugins](#plugins)
       * [SequenceDiagram 代码生成时序图](#sequencediagram-代码生成时序图)

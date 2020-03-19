@@ -1,5 +1,4 @@
-VSCode
-=================
+# VS Code
 
    * [Plugins](#plugins)
       * [文件图标 vscode-icons](#文件图标-vscode-icons)
