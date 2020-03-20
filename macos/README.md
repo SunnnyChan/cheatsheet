@@ -7,6 +7,7 @@
       * [brew](#brew)
       
 # Hot Key
+
 * Command + Option + Shift + Esc //强制退出程序
 * Command + Space -> 输入“Activity Monitor” //打开任务管理器
 
@@ -25,14 +26,27 @@ alias which='alias | gwhich --tty-only --read-alias --show-dot --show-tilde'
 # Tools
 
 ## brew
+
+## 安装 brew
 [brew.sh/index_zh-cn](https://brew.sh/index_zh-cn)
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+## 使用案例
+
+```bash
+brew info gradle 
+brew upgrade gradle //升级
+```
+
+### 常用安装
+
 ```bash
 brew install gradle
 brew install scala
 ```
+
 
 # Q&A
 
