@@ -1,5 +1,4 @@
-MacOS
-=================
+# MacOS
 
    * [Hot Key](#hot-key)
    * [Setting](#setting)
@@ -12,8 +11,10 @@ MacOS
 * Command + Space -> 输入“Activity Monitor” //打开任务管理器
 
 # Setting
-# .bash_profile
-```sh
+
+## .bash_profile
+
+```bash
 alias ll="ls -G -l "
 alias l1="ls -G -1 "
 alias grep="grep -n --color "
@@ -22,15 +23,20 @@ alias which='alias | gwhich --tty-only --read-alias --show-dot --show-tilde'
 ```
 
 # Tools
+
 ## brew
 [brew.sh/index_zh-cn](https://brew.sh/index_zh-cn)
-```sh
+```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-```sh
+```bash
 brew install gradle
 brew install scala
 ```
 
+# Q&A
 
+* 应用程序无法启动，如何调试？  
+
+打开finder->应用程序->xxx.app->右键->显示包内容->然后MaxOS->双击Shell脚本
 
