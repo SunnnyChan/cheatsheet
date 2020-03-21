@@ -1,5 +1,4 @@
-Chrome
-=================
+# Chrome
 
    * [截屏](#截屏)
    * [extensions](#extensions)

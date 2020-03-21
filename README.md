@@ -3,14 +3,15 @@ home: false
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
+# CheatSheet
+
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)  
 
-[更好的阅读体验](https://sunnnychan.github.io/cheatsheet/)
- 
+* [更好的阅读体验](https://sunnnychan.github.io/cheatsheet/)
 
-# [OneLine Tools （在线工具）](ol-tools/README.md)
+# [在线工具](ol-tools/)
 
-# [Computer Terms（计算机术语）](collection/terms/README.md)
+# [命令行工具](cmd/)
 
 # 开发工具
 
@@ -19,14 +20,17 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ## [Intellij IDEA](dev/idea/README.md)
 ## [VS Code](dev/vscode/README.md)
+## [Chrome](chrome/README.md)
 
-# 知识工具
-## [Markdown](editor/markdown.md)
-# [XMind](editor/xmind.md)
+# 软件工具
+## [Nginx](software/nginx)
 
-# [Chrome](chrome/README.md)
-
-# [Linux 工具](collection/linux.md)
+# [Linux](linux/)
 ## [Vim](http://112.126.103.179/archives/vim)
 
-# [MacOS](collection/macos.md)
+# [MacOS](macos/)
+
+# 知识工具
+## [Markdown](knowledge/markdown/)
+## [XMind](knowledge/xmind/)
+

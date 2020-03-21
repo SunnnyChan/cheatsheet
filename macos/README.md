@@ -5,7 +5,7 @@
    * [.bash_profile](#bash_profile)
    * [Tools](#tools)
       * [brew](#brew)
-      
+   
 # Hot Key
 
 * Command + Option + Shift + Esc //强制退出程序
