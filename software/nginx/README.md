@@ -1,5 +1,14 @@
 # Nginx
 
+## sbin/nginx
+
+* nginx -s reload|reopen|stop|quit  
+重新加载配置文件|重启|停止|退出
+
+* nginx -t   
+测试配置是否有语法错误
+
+
 ## location
 
 ### 匹配模式
