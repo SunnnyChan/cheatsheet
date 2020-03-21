@@ -86,3 +86,60 @@ location ~ /images/abc/ {
     [ configuration H ] 
 }
 ```
+
+## nginx.conf
+
+```nginx
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  logs/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    server {
+        listen 8099;
+
+        # 静态站点
+        location ~ ^/kb|cooking|literature|terms {
+                root /home/sunny/site;
+
+                # 解决 uri 末尾未加 “/”
+                if (-d $request_filename) {
+                        rewrite ^/(.*)([^/])$ $scheme://$host/$1$2/ permanent;
+                }
+
+                index index.html index.htm;
+        }
+        # 反向代理，转发请求
+        location / {
+                proxy_pass http://127.0.0.1:8090;
+        }
+    }
+}
+```
