@@ -1,5 +1,4 @@
-Linux
-=================
+# Linux
 
    * [.bashrc](#bashrc)
       * [配置 alias 别名](#配置-alias-别名)
@@ -11,7 +10,9 @@ Linux
    * [tmux](#tmux)
    
 # .bashrc
+
 ## 配置 alias 别名
+
 * 设置
 ```shell
 $ touch ~/.bash_aliases
@@ -22,7 +23,7 @@ if [ -e $HOME/.bash_aliases ]; then
 fi
 ```
 * 常用别名
-```shell
+```bash
 # 按文件大小排序
 alias lt='ls --human-readable --size -1 -S --classify'
 alias lt='du -sh * | sort -h' # MacOS、BSD

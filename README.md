@@ -11,8 +11,6 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 # [在线工具](ol-tools/)
 
-# [命令行工具](cmd/)
-
 # 开发工具
 
 ## [Git](dev/git/README.md)
@@ -22,11 +20,14 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ## [VS Code](dev/vscode/README.md)
 ## [Chrome](chrome/README.md)
 
+# [Linux](linux/)
+## [命令行 — 场景应用](linux/cls/)
+## [命令](linux/cmds)
+## [Shell](linux/Shell)
+## [Vim](http://112.126.103.179/archives/vim)
+
 # 软件工具
 ## [Nginx](software/nginx)
-
-# [Linux](linux/)
-## [Vim](http://112.126.103.179/archives/vim)
 
 # [MacOS](macos/)
 

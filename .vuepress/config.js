@@ -15,12 +15,6 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
       },
       {
-        title: '命令行工具',   // 必要的
-        path: '/cmd/',      // 可选的
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
         title: '开发工具',   // 必要的
         path: '/dev/',      // 可选的
         collapsable: true, // 可选的, 默认值是 true,
@@ -48,6 +42,9 @@ module.exports = {
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
+          '/linux/cls/',
+          '/linux/cmds/',
+          '/linux/shell/',
           '/linux/vim/'
         ]
       },
