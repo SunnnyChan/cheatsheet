@@ -33,5 +33,6 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 # 知识工具
 ## [Markdown](knowledge/markdown/)
+## [LaTeX](knowledge/latex/)
 ## [XMind](knowledge/xmind/)
 

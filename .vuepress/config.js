@@ -61,9 +61,21 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/knowledge/markdown/',
+          '/knowledge/latex/',
           '/knowledge/xmind/'
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+  ]
 }
