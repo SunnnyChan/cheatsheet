@@ -11,14 +11,16 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 # [在线工具](ol-tools/)
 
+# [Java](java/)
+
 # 开发工具
 
-## [Git](dev/git/README.md)
-## [Github](dev/github/README.md)
+## [Git](dev/git/)
+## [Github](dev/github/)
 
-## [Intellij IDEA](dev/idea/README.md)
-## [VS Code](dev/vscode/README.md)
-## [Chrome](chrome/README.md)
+## [Intellij IDEA](dev/idea/)
+## [VS Code](dev/vscode/)
+## [Chrome](dev/chrome/)
 
 # [Linux](linux/)
 ## [命令行 — 场景应用](linux/cls/)
