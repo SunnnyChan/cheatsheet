@@ -11,8 +11,6 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 # [在线工具](ol-tools/)
 
-# [Java](java/)
-
 # 开发工具
 
 ## [Git](dev/git/)

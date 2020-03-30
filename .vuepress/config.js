@@ -9,12 +9,6 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Java',   // 必要的
-        path: '/java/',      // 可选的
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
         title: '在线工具',   // 必要的
         path: '/ol-tools/',      // 可选的
         collapsable: false, // 可选的, 默认值是 true,
