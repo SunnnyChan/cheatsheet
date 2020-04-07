@@ -8,6 +8,10 @@
 
 ## 文件处理
 * [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
+
+## 图片处理
+
+* [改图宝](https://www.gaitubao.com/)
 * [在线PS](https://ps.gaoding.com/#/?hmsr=zc-cc)
 
 ## [常用对照表](http://tool.oschina.net/commons?type=3)
