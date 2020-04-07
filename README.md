@@ -35,4 +35,3 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ## [Markdown](knowledge/markdown/)
 ## [LaTeX](knowledge/latex/)
 ## [XMind](knowledge/xmind/)
-
