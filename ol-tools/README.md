@@ -2,6 +2,10 @@
 
 ## 开发工具
 
+* [JSON](https://www.json.cn/)
+* [JSON Diff](http://tlrobinson.net/projects/javascript-fun/jsondiff/)
+* [正则](https://regex101.com/)
+
 ### Logo  
 * [Logo搜索 - 寻找产品logo](http://instantlogosearch.com/)  
 * [kasuganosoras/logo-maker - PornHub 以及 YouTube 风格的 Logo](https://github.com/kasuganosoras/logo-maker)
@@ -28,6 +32,10 @@
 
 * [书单网](https://www.shudan.vip/)
 * [鸠摩搜索](https://www.jiumodiary.com/)
+
+## 电子书格式转换
+
+* [Epubee](http://cn.epubee.com/)
 
 ## Misc
 * [临时邮箱 - 临时注册一个网站，但不想用真实邮箱](https://linshiyouxiang.net/)

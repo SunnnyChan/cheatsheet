@@ -64,6 +64,15 @@ module.exports = {
           '/knowledge/latex/',
           '/knowledge/xmind/'
         ]
+      },
+      {
+        title: '收藏',   // 必要的
+        path: '/collections/',      // 可选的
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/collections/websites/'
+        ]
       }
     ]
   },

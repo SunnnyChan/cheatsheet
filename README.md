@@ -36,3 +36,6 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ## [LaTeX](knowledge/latex/)
 ## [XMind](knowledge/xmind/)
 
+# 收藏
+## [站点收藏](collections/websites)
+
