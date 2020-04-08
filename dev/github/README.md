@@ -8,25 +8,28 @@
       * [Github 文件名大小写不敏感](#github-文件名大小写不敏感)
 
 # 构建表格
+
 ```text
+<style>
+     table {border-style: solid; border-width: 1px; min-height: 25px; line-height: 25px;}   
+     tr {border-style: double; border-width: 1px;}
+     td {border-style: double; border-width: 1px; font-size:15px;}
+</style>
 <table>
-        <tr>
-            <th></th>
-            <th>R</th>
-            <th>F</th>
-            <th>M</th>
+        <tr >
+            <th>埋点方式</th>
+            <th>客户端埋点</th>
+            <th>服务端埋点</th>
         </tr>
         <tr>
-            <th>影响因素</th>
-            <th>1. 店铺记忆强度</br>2. 接触机会多少</br>3. 回购周期</th>
-            <th>1. 品牌忠诚度</br>2. 店铺熟悉度</br>3. 客户会员等级</br>4. 购买习惯养成</th>
-            <th>1. 消费能力</br>产品认可度</th>
+            <th>优势</th>
+            <td>1.可以详细采集用户行为</br>2.可以完整采集用户本地设备标识</td>
+            <td>1.可以准确采集业务操作状态和结果</br>2.数据完整上报可靠性更好</td>
         </tr>
         <tr>
-            <th>应用场景</th>
-            <th>决定接触策略</br>决定接触频次</br>决定刺激粒度</th>
-            <th>决定资源投入</br>决定营销优先级</br>决定活动方案</th>
-            <th>决定推荐商品</br>决定折扣门槛</br>决定活动方案</th>
+            <th>劣势</th>
+            <td>1.数据的上报受到网络环境影响</br>2.相同业务场景客户端入口较多时容易产生埋点遗漏</td>
+            <td>1.不能直接获取用户行为数据，埋点也比较难系统化去做</td>
         </tr>
 </table>
 ```
