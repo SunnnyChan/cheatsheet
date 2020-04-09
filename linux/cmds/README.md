@@ -1,5 +1,6 @@
 # 命令 Collections
 
+```json
 file {
     file ouput {
         cat - concatenate files and print on the standard output
@@ -168,98 +169,99 @@ C language {
     ar - create, modify, and extract from archives
     ldd - print shared library dependencies
 }
+```
 
-
-ac -  print statistics about users’ connect time
-apropos -  根据关键字搜索命令
-ar - create, modify, and extract from archives
-arp - manipulate the system ARP cache
-at, batch, atq, atrm - queue, examine or delete jobs for later execution
-basename - strip directory and suffix from filenames
-bc - An arbitrary precision calculator language
-date - print or set the system date and time
-dd - convert and copy a file
-diff - find differences between two files
-dir - list directory contents
-dmidecode - 查看硬件信息
-du - estimate file space usage
-dos2unix，unix2dos - Windows 和 Linux 文件格式转换
-cal - displays a calendar
-cat - concatenate files and print on the standard output
-column - columnate lists
-comm - compare two sorted files line by line
-complete - specify how arguments are to be completed. bash参数补全功能
-chgrp - change group ownership
-chkconfig - updates and queries runlevel information for system services
-chmod - change file access permissions
-chown - change file owner and group
-chroot - run command or interactive shell with special root directory
-clear - clear the terminal screen
-echo - display a line of text
-env - run a program in a modified environment
-exec - Exec FILE, replacing this shell with the specified program.
-eval - Read ARGs as input to the shell and execute the resulting command(s).
-false - do nothing, unsuccessfully
-find - search for files in a directory hierarchy
-free - Display amount of free and used memory in the system
-grep, egrep, fgrep - print lines matching a pattern
-gzip, gunzip, zcat - compress or expand files
-head - output the first part of files
-hexdump - 十六进制查看器
-help - 显示Bash内建命令的帮助信息
-hwclock - query and set the hardware clock (RTC)  查询和设置硬件时钟
-iconv - Convert encoding of given files from one encoding to another
-ifconfig - configure a network interface
-info - read Info documents
-insmod - simple program to insert a module into the Linux Kernel
-iostat - Report Central Processing Unit (CPU) statistics and input/output statistics for devices, partitions and network filesystems (NFS).
-join - join lines of two files on a common field
-killall - kill processes by name 杀死指定名字的进程
-last, lastb - show listing of last logged in users
-lsb_release - prints certain LSB (Linux Standard Base) and Distribution information 查看当前系统的发行版信息
-lsmod - program to show the status of modules in the Linux Kernel
-mount， umount - mount/unmount file systems
-nc - arbitrary TCP and UDP connections and listens
-nl - number lines of files
-nslookup - query Internet name servers interactively
-pidof - find the process ID of a running program. 查询运行程序的进程PID
-pidstat - Report statistics for Linux tasks.
-pstree - display a tree of processes
-pstack - print a stack trace of a running process
-reset，tset - terminal initialization 
-tail - output the last part of files
-tailf - follow the growth of a log file
-tee - read from standard input and write to standard output and files
-top - display Linux tasks
-touch - change file timestamps
-true - do nothing, successfully
-tr - translate or delete characters
-tsort - perform topological sort 拓扑排序
-tty - print the file name of the terminal connected to standard input
-type - indicate how it would be interpreted if used as a command name.
-tzselect - select a time zone 选择时区
-route - show / manipulate the IP routing table
-screen - screen manager with VT100/ANSI terminal emulation
-set - set [--abefhkmnptuvxBCHP] [-o option] [arg ...]
-sleep，usleep - delay for a specified amount of time, sleep some number of microseconds(usleep)
-stat - display file or filesystem status
-stty - change and print terminal line settings
-strings - print the strings of printable characters in files.
-strace - trace system calls and signals
-sync - flush filesystem buffers 
-uname - print system information
-uniq - remove duplicate lines from a sorted file
-useradd，userdel，usermod - add, delete, modify a user account
-uptime - Tell how long the system has been running.
-vmstat - Report virtual memory statistics
-w - Show who is logged on and what they are doing.
-wait - Wait for the specified process and report its termination status.
-watch - execute a program periodically, showing output fullscreen
-wc - print the number of newlines, words, and bytes in files
-whatis - search the whatis database for complete words.
-whereis - locate the binary, source, and manual page files for a command
-who - show who is logged on
-xargs - build and execute command lines from standard input
-xxd - make a hexdump or do the reverse.
-yes - output a string repeatedly until killed
-zip, zipcloak, zipnote, zipsplit - package and compress (archive) files, unzip - list, test and extract compressed files in a ZIP archive
+ac -  print statistics about users’ connect time  
+apropos -  根据关键字搜索命令  
+ar - create, modify, and extract from archives  
+arp - manipulate the system ARP cache  
+at, batch, atq, atrm - queue, examine or delete jobs for later execution  
+basename - strip directory and suffix from filenames  
+bc - An arbitrary precision calculator language  
+date - print or set the system date and time  
+dd - convert and copy a file  
+diff - find differences between two files  
+dir - list directory contents  
+dmidecode - 查看硬件信息  
+du - estimate file space usage  
+dos2unix，unix2dos - Windows 和 Linux 文件格式转换  
+cal - displays a calendar  
+cat - concatenate files and print on the standard output  
+column - columnate lists  
+comm - compare two sorted files line by line  
+complete - specify how arguments are to be completed. bash参数补全功能  
+chgrp - change group ownership  
+chkconfig - updates and queries runlevel information for system services  
+chmod - change file access permissions  
+chown - change file owner and group  
+chroot - run command or interactive shell with special root directory  
+clear - clear the terminal screen  
+echo - display a line of text  
+env - run a program in a modified environment  
+exec - Exec FILE, replacing this shell with the specified program.  
+eval - Read ARGs as input to the shell and execute the resulting command(s).  
+false - do nothing, unsuccessfully  
+find - search for files in a directory hierarchy  
+free - Display amount of free and used memory in the system  
+grep, egrep, fgrep - print lines matching a pattern  
+gzip, gunzip, zcat - compress or expand files  
+head - output the first part of files  
+hexdump - 十六进制查看器  
+help - 显示Bash内建命令的帮助信息  
+hwclock - query and set the hardware clock (RTC)  查询和设置硬件时钟  
+iconv - Convert encoding of given files from one encoding to another  
+ifconfig - configure a network interface  
+info - read Info documents  
+insmod - simple program to insert a module into the Linux Kernel  
+iostat - Report Central Processing Unit (CPU) statistics and input/output statistics for devices, partitions and network filesystems (NFS).  
+join - join lines of two files on a common field  
+killall - kill processes by name 杀死指定名字的进程  
+last, lastb - show listing of last logged in users  
+lsb_release - prints certain LSB (Linux Standard Base) and Distribution information 查看当前系统的发行版信息  
+lsmod - program to show the status of modules in the Linux Kernel  
+mount， umount - mount/unmount file systems  
+nc - arbitrary TCP and UDP connections and listens  
+nl - number lines of files  
+nslookup - query Internet name servers interactively  
+pidof - find the process ID of a running program. 查询运行程序的进程PID  
+pidstat - Report statistics for Linux tasks.  
+pstree - display a tree of processes  
+pstack - print a stack trace of a running process  
+reset，tset - terminal initialization     
+tail - output the last part of files  
+tailf - follow the growth of a log file  
+tee - read from standard input and write to standard output and files  
+top - display Linux tasks  
+touch - change file timestamps  
+true - do nothing, successfully  
+tr - translate or delete characters  
+tsort - perform topological sort 拓扑排序  
+tty - print the file name of the terminal connected to standard input  
+type - indicate how it would be interpreted if used as a command name.  
+tzselect - select a time zone 选择时区  
+route - show / manipulate the IP routing table  
+screen - screen manager with VT100/ANSI terminal emulation  
+set - set [--abefhkmnptuvxBCHP] [-o option] [arg ...]  
+sleep，usleep - delay for a specified amount of time, sleep some number of microseconds(usleep)  
+stat - display file or filesystem status  
+stty - change and print terminal line settings  
+strings - print the strings of printable characters in files.  
+strace - trace system calls and signals  
+sync - flush filesystem buffers   
+uname - print system information  
+uniq - remove duplicate lines from a sorted file  
+useradd，userdel，usermod - add, delete, modify a user account  
+uptime - Tell how long the system has been running.  
+vmstat - Report virtual memory statistics  
+w - Show who is logged on and what they are doing.  
+wait - Wait for the specified process and report its termination status.  
+watch - execute a program periodically, showing output fullscreen  
+wc - print the number of newlines, words, and bytes in files   
+whatis - search the whatis database for complete words.  
+whereis - locate the binary, source, and manual page files for a command  
+who - show who is logged on  
+xargs - build and execute command lines from standard input  
+xxd - make a hexdump or do the reverse.  
+yes - output a string repeatedly until killed  
+zip, zipcloak, zipnote, zipsplit - package and compress (archive) files    
+unzip - list, test and extract compressed files in a ZIP archive   
