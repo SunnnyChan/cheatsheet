@@ -28,6 +28,15 @@ alias which='alias | gwhich --tty-only --read-alias --show-dot --show-tilde'
 ```bash
 brew install gradle
 brew install scala
+
+# 升级 bash 到 4.0
+$ bash --version
+GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin19)
+
+$ brew search bash
+
+$/usr/local/opt/bash/bin/bash --version
+GNU bash，版本 5.0.16(1)-release (x86_64-apple-darwin19.3.0)
 ```
 
 ## Tools
