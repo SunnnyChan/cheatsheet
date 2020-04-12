@@ -38,6 +38,9 @@
 * [书单网](https://www.shudan.vip/)
 * [鸠摩搜索](https://www.jiumodiary.com/)
 
+* [网文 - 爱下电子书](https://tw.aixdzs.com/)  
+
+
 ## Misc
 * [临时邮箱 - 临时注册一个网站，但不想用真实邮箱](https://linshiyouxiang.net/)  
 
