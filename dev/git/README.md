@@ -27,6 +27,15 @@ git remote set-url origin newAddress # 适用于本地和远程的代码没得�
 
 ```  
 
+## Merge
+
+* no-ff  
+在合并的同时会生成一个新的commit，这样，从分支历史上就可以看出分支信息。  
+
+```bash
+$ git merge --no-ff -m "merge with no-ff" dev
+```
+
 ## Commit
 
 ### Commit Message
