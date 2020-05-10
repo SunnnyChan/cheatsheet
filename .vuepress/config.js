@@ -28,6 +28,15 @@ module.exports = {
         ]
       },
       {
+        title: '软件法则',   // 必要的
+        path: '/software/',      // 可选的
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/software/law/'
+        ]
+      },
+      {
         title: '软件工具',   // 必要的
         path: '/software/',      // 可选的
         collapsable: true, // 可选的, 默认值是 true,
