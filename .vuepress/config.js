@@ -28,21 +28,21 @@ module.exports = {
         ]
       },
       {
-        title: '软件法则',   // 必要的
-        path: '/software/',      // 可选的
-        collapsable: true, // 可选的, 默认值是 true,
+        title: '软件工程',   // 必要的
+        path: '/se/',      // 可选的
+        collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
-          '/software/law/'
+          '/se/law/'
         ]
       },
       {
         title: '软件工具',   // 必要的
-        path: '/software/',      // 可选的
+        path: '/component/',      // 可选的
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
-          '/software/nginx/'
+          '/component/nginx/'
         ]
       },
       {

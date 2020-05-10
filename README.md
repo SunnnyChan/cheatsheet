@@ -20,17 +20,17 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ## [VS Code](dev/vscode/)
 ## [Chrome](dev/chrome/)
 
-# [软件法则](software/law/)
+# 软件工程
+## [软件法则](se/law/)
+
+# 组件
+## [Nginx](component/nginx)
 
 # [Linux](linux/)
 ## [命令行 — 场景应用](linux/cls/)
 ## [命令](linux/cmds)
 ## [Shell](linux/Shell)
 ## [Vim](http://112.126.103.179/archives/vim)
-
-# 软件工具
-
-## [Nginx](software/nginx)
 
 # [MacOS](macos/)
 
