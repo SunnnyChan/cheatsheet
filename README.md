@@ -29,8 +29,9 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 # [Linux](linux/)
 ## [命令行 — 场景应用](linux/cls/)
 ## [命令](linux/cmds)
-## [Shell](linux/Shell)
 ## [Vim](http://112.126.103.179/archives/vim)
+
+# [Shell](shell/)
 
 # [MacOS](macos/)
 

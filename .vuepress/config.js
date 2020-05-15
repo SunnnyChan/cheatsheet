@@ -30,7 +30,7 @@ module.exports = {
       {
         title: '软件工程',   // 必要的
         path: '/se/',      // 可选的
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/se/law/'
@@ -53,9 +53,14 @@ module.exports = {
         children: [
           '/linux/cls/',
           '/linux/cmds/',
-          '/linux/shell/',
           '/linux/vim/'
         ]
+      },
+      {
+        title: 'Shell',   // 必要的
+        path: '/shell/',      // 可选的
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
       },
       {
         title: 'MacOS',   // 必要的

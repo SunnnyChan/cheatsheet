@@ -14,7 +14,7 @@
 ## 配置 alias 别名
 
 * 设置
-```shell
+```bash
 $ touch ~/.bash_aliases
 
 # ~/.bashrc 
