@@ -24,7 +24,8 @@ module.exports = {
           '/dev/github/',
           '/dev/idea/',
           '/dev/vscode/',
-          '/dev/chrome/'
+          '/dev/chrome/',
+          '/dev/online-tls/'
         ]
       },
       {
