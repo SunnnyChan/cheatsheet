@@ -15,6 +15,12 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
       },
       {
+        title: '对照表',   // 必要的
+        path: '/table/',      // 可选的
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+      },
+      {
         title: '开发工具',   // 必要的
         path: '/dev/',      // 可选的
         collapsable: true, // 可选的, 默认值是 true,

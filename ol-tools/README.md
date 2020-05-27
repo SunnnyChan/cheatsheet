@@ -23,16 +23,6 @@
 * [Aconvert.com](https://www.aconvert.com/cn/)    
 在线转换各类PDF，文档，电子书，图像，图标，视频，音频和压缩文件。  
 
-## [常用对照表](http://tool.oschina.net/commons?type=3)
-* ASCII对照表  
-* HTTP状态码详解
-* HTTP Content-type   
-* HTML转义字符  
-* 运算符优先级  
-* TCP/UDP常见端口参考  
-* 网页字体参考  
-* RGB颜色参考   
-
 ## 电子书搜索
 
 * [书单网](https://www.shudan.vip/)
@@ -40,6 +30,9 @@
 
 * [网文 - 爱下电子书](https://tw.aixdzs.com/)  
 
+## 阅读
+
+* ***[epub2html - epub 转 html](https://github.com/zk4/epub2html)***  
 
 ## Misc
 * [临时邮箱 - 临时注册一个网站，但不想用真实邮箱](https://linshiyouxiang.net/)  
