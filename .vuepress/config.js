@@ -60,7 +60,10 @@ module.exports = {
         children: [
           '/linux/cls/',
           '/linux/cmds/',
-          '/linux/vim/'
+          '/linux/config/',
+          '/linux/centos/',
+          '/linux/vim/',
+          '/linux/tmux/'
         ]
       },
       {
