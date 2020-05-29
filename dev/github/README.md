@@ -38,7 +38,7 @@
 </table>
 ```
 
-# Hotkey
+## Hotkey
   
 * 快捷键: t 和 w  
   
@@ -50,7 +50,7 @@
   
 * 按范围过滤提交记录: master@{time}..master  
   
-# 搜索  
+## 搜索  
 
 * in:name 仓库名搜索  
 * in:descripton  
@@ -69,29 +69,24 @@
 * user:joshlong language:java  
 * org:spring-cloud  
 
-# Github 工具  
+## Github 工具  
 
-## Github Flavored Markdown 语法介绍  
+* [Github Flavored Markdown 语法介绍 ](https://github.com/guodongxiaren/README)  
 
-[Github 地址](https://github.com/guodongxiaren/README)  
-
-## gh-md-toc
-
-[Github 地址](https://github.com/ekalinin/github-markdown-toc)  
-
-```sh 
-gh-md-toc README.md  
-```
+* [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)  
   
-# Q&A  
+## Q&A  
 
-## Github 文件名大小写不敏感
+* Github 文件名大小写不敏感  
 
-默认情况下如果你本地把文件夹小写的修改成大写的，然后提交，会导致github上存在一份大写的和一份小写的文件夹。  
+默认情况下如果你本地把文件夹小写的修改成大写的，  
+然后提交，会导致github上存在一份大写的和一份小写的文件夹。  
 
-* 要删除掉 Github 上的小写文件，需要做的是:  
-
+要删除掉 Github 上的小写文件，需要做的是:  
 ```bash
-本地执行 git rm -r --cached . 
-然后重新 git push
+# 本地执行 
+git rm -r --cached . 
+
+# 然后重新 
+git push
 ```
