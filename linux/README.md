@@ -10,3 +10,8 @@
 ## [VIM](vim/)
 ## [tmux](tmux/) 
 
+
+## 工具
+
+* Alacritty  号称最快的终端仿真器  
+
