@@ -62,6 +62,7 @@ module.exports = {
           '/linux/cmds/',
           '/linux/config/',
           '/linux/centos/',
+          '/linux/tls/',
           '/linux/vim/',
           '/linux/tmux/'
         ]
