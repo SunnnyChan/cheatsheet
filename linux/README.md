@@ -5,6 +5,9 @@
 
 ## [配置](config/)
 
+* .bashrc  
+* alacritty.yml  (Alacritty 号称最快的终端仿真器 )
+
 ## [Centos](centos/)
 
 ## [VIM](vim/)
@@ -13,5 +16,4 @@
 
 ## 工具
 
-* Alacritty  号称最快的终端仿真器  
 
