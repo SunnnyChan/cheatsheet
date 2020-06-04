@@ -7,6 +7,12 @@ MacOS
    * [brew](#brew)
    * [Q&amp;A](#qa)
 
+
+* iBooks书籍实际存放位置  
+
+~/Library/Containers/com.apple.BKAgentService/Data/Documents/iBooks/Books  
+
+
 ## 配置
 
 * [dotfiles for macOS](https://github.com/mathiasbynens/dotfiles)  
