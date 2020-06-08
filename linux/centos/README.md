@@ -1,14 +1,14 @@
 # Centos
 
    * [Centos](#centos)
-      * [Yum](#yum)
+      * [yum](#yum)
       * [rpm](#rpm)
 
 ```sh
 # cat /etc/*release*
 ```
 
-## Yum
+## yum
 ```sh
 # 安装实例
 # 查找工具所在的软件包
@@ -49,6 +49,14 @@ yum install gdb
 # Java Dev
 yum -y install maven.noarch
 yum install -y java-11-openjdk-devel.x86_64 #jps
+```
+
+* 非 root 安装
+
+```bash
+$yum list 'openresty*'
+$yumdownloader openresty.x86_64 --nogpgcheck
+$ rpm2cpio openresty-1.15.8.3-1.el7.x86_64.rpm |cpio -idvm
 ```
 
 ## rpm
