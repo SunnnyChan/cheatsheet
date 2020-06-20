@@ -1,19 +1,90 @@
 # Shell
 
-   * [变量](#变量)
-      * [PS 终端提示符](#ps-终端提示符)
-      * [$@与$*](#sunny-与)
-   * [数组](#数组)
-   * [函数](#函数)
-   * [控制结构](#控制结构)
-      * [case](#case)
-      * [for](#for)
-      * [while、until](#whileuntil)
-      * [for/while 逐行处理文件](#forwhile-逐行处理文件)
-      * [for/while 逐行处理命令输出](#forwhile-逐行处理命令输出)
-   * [Here Doc](#here-doc)
-   * [数据运算](#数据运算)
-   * [Shell 解释过程](#shell-解释过程)
+## 版本
+
+### Shell 流派
+
+```text
+sh：
+burne shell (sh)   
+burne again shell (bash)   
+```
+```text
+csh：
+c shell (csh)   
+tc shell (tcsh)   
+korn shell (ksh)    
+```
+
+Bash 是在 GNU 项目中开发的，依据 GPL 发布。
+csh、tcsh、zsh、ash 和 scsh 都是依据 BSD 或一种类似 BSD 的许可来发布。
+Korn shell 可依据 Common Public License 使用。
+
+### 系统安装的 Shell
+
+```bash
+$cat /etc/shells
+# List of acceptable shells for chpass(1).
+# Ftpd will not allow users to connect who are not using
+# one of these shells.
+
+/bin/bash
+/bin/csh
+/bin/dash
+/bin/ksh
+/bin/sh
+/bin/tcsh
+/bin/zsh
+```
+
+# 当前正在使用的Shell
+
+```bash
+# 最常用的查看Shell的命令，但不一定能实时反映当前Shell
+$ echo $SHELL
+/bin/zsh
+
+# 以下用法并不是所有Shell都支持
+$ echo $0
+-zsh
+
+# 从环境变量查看
+$ env | grep SHELL
+SHELL=/bin/zsh
+
+# 查看当前进程
+$ ps
+  PID TTY           TIME CMD
+70143 ttys000    0:00.03 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp sunny
+70145 ttys000    0:00.04 -zsh
+
+# 先查看当前Shell的pid，再定位到此Shell进程
+$ ps -ef | grep $(echo $$)
+  503 70145 70144   0 10:12AM ttys000    0:00.05 -zsh
+    0 70204 70145   0 10:22AM ttys000    0:00.00 ps -ef
+  503 70206 70145   0 10:22AM ttys000    0:00.00 grep 70145
+
+# 执行一个不存在的命令
+$ tom
+zsh: command not found: tom
+```
+
+# 切换Shell 
+
+```bash
+# 需要输入用户密码
+$ chsh -s /usr/bin/bash
+Changing shell for sunny.
+密码：
+
+$ echo $SHELL
+/bin/bash
+
+# 重新登录后生效
+$ env | grep SHELL
+SHELL=/usr/bin/bash
+
+```
 
 ## 变量
 ### 内建变量
