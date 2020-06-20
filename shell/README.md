@@ -4,21 +4,21 @@
 
 ### Shell 流派
 
-```text
+```
 sh：
 burne shell (sh)   
 burne again shell (bash)   
 ```
-```text
+```
 csh：
 c shell (csh)   
 tc shell (tcsh)   
 korn shell (ksh)    
 ```
 
-Bash 是在 GNU 项目中开发的，依据 GPL 发布。
-csh、tcsh、zsh、ash 和 scsh 都是依据 BSD 或一种类似 BSD 的许可来发布。
-Korn shell 可依据 Common Public License 使用。
+Bash 是在 GNU 项目中开发的，依据 GPL 发布。  
+csh、tcsh、zsh、ash 和 scsh 都是依据 BSD 或一种类似 BSD 的许可来发布。  
+Korn shell 可依据 Common Public License 使用。  
 
 ### 系统安装的 Shell
 
@@ -113,7 +113,7 @@ function func2() {
 func1 "1.1 1.2" "2.1"
 ```
 $*、 $@、 "$*"、 "$@" 作为参数传递的输出：  
-```txt
+```bash
 >> TEST $* OUTPUT:
 $1 -> 1.1
 $2 -> 1.2
@@ -398,14 +398,12 @@ EOF
 
 # Here Doc  
 
-```txt
-shell脚本程序中，向一条命令传递输入的一种特殊方法是使用here文档。
-一个here document就是一段带有特殊目的的代码段。
-```
+Shell 脚本程序中，向一条命令传递输入的一种特殊方法是使用here文档。  
+一个here document就是一段带有特殊目的的代码段。  
 
 * 格式：  
 
-```md
+```bash
 COMMAND <<SpecialString
 ...
 SpecialString 用来界定命令序列的范围，
@@ -413,19 +411,18 @@ SpecialString 用来界定命令序列的范围，
 ```
 
 * 应用   
-```txt
-主要用于有大量文本输入的情况
-```
+
+主要用于有大量文本输入的情况。  
 
 * 注意  
 
-```txt
+```
 1. 某些工具是不能放入here document中运行的。
 2. 结尾的limit string, 就是here document最后一行的limit string, 
-    必须从第一个字符开始，它的前面不能够有任何前置的空白。
-    而在这个limit string后边的空白也会引起异常，空白将会阻止limit string的识别。
+  必须从第一个字符开始，它的前面不能够有任何前置的空白。
+  而在这个limit string后边的空白也会引起异常，空白将会阻止limit string的识别。
 3. 对于那些使用"here document"，并且非常复杂的任务, 
-    最好考虑使用expect脚本语言，这种语言就是为了达到向交互程序添加输入的目的而量身定做的。
+  最好考虑使用expect脚本语言，这种语言就是为了达到向交互程序添加输入的目的而量身定做的。
 ```
 
 ## 数据运算  
