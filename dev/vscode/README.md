@@ -10,11 +10,18 @@
          * [代码检查工具 ESLint](#代码检查工具-eslint)
          * [前端调试工具 Debugger for Chrome](#前端调试工具-debugger-for-chrome)
          * [代码拼写检查 Code Spell Checker](#代码拼写检查-code-spell-checker)
-         
-# Plugins
+
+## 配置  
+
+* 修改默认的Shell  
+
+1.  Ctrl + Shift + p : 调出命令输入框；  
+2.  输入 Terminal: Select Default Shell 。  
+
+# Plugins  
 ## 文件图标 vscode-icons
 
-## Theme
+## Theme  
 ### Solarized
 ### One Dark Pro
 
