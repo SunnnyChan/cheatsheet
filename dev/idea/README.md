@@ -4,19 +4,17 @@
 
 Mac “Ctrl+Enter”
 
-
 ## 配置
 
 ### Theme
 Editor –> Color Scheme –> Color Scheme Font
-
 
 ## Plugins
 
 * SequenceDiagram 代码生成时序图
 * PlantUML Markdown 语法UML图
 
-   <table data-source-line="2">
+<table data-source-line="2">
 <thead>
 <tr><th>插件名称</th><th>插件介绍</th><th>官网地址</th></tr>
 </thead>
