@@ -4,6 +4,10 @@
 
 * [快速命名工具](http://p8z.fun/)  
 
+* [Dev Hints](https://devhints.io/)  
+
+Cheatsheets for VIM / Git / React / Vue  
+
 ## JSON
 
 * [Json.cn](https://www.json.cn/)  
