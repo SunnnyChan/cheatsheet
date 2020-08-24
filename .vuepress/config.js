@@ -30,8 +30,7 @@ module.exports = {
           '/dev/github/',
           '/dev/idea/',
           '/dev/vscode/',
-          '/dev/chrome/',
-          '/dev/online-tls/'
+          '/dev/chrome/'
         ]
       },
       {
