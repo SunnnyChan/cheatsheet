@@ -5,14 +5,12 @@
 * [快速命名工具](http://p8z.fun/)  
 
 * [Dev Hints](https://devhints.io/)  
-
-Cheatsheets for VIM / Git / React / Vue ...  
-
-### Java
+Cheatsheets for VIM / Git / React / Vue ...    
 
 * [gitignore.io](http://www.gitignore.io/)  
-
 Create useful .gitignore files for your project.  
+
+* [中国程序员容易发音错误的单词](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)  
 
 ### JSON
 
