@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shell | CheatSheet</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/cheatsheet/assets/css/0.styles.545a25f0.css" as="style"><link rel="preload" href="/cheatsheet/assets/js/app.c53346be.js" as="script"><link rel="preload" href="/cheatsheet/assets/js/2.3412115d.js" as="script"><link rel="preload" href="/cheatsheet/assets/js/35.cd54f693.js" as="script"><link rel="prefetch" href="/cheatsheet/assets/js/10.d1d862ba.js"><link rel="prefetch" href="/cheatsheet/assets/js/11.0e19556f.js"><link rel="prefetch" href="/cheatsheet/assets/js/12.4b2e0e65.js"><link rel="prefetch" href="/cheatsheet/assets/js/13.f379e0e5.js"><link rel="prefetch" href="/cheatsheet/assets/js/14.9c50cdc1.js"><link rel="prefetch" href="/cheatsheet/assets/js/15.472d10f2.js"><link rel="prefetch" href="/cheatsheet/assets/js/16.6031a084.js"><link rel="prefetch" href="/cheatsheet/assets/js/17.fd711da3.js"><link rel="prefetch" href="/cheatsheet/assets/js/18.08d5434b.js"><link rel="prefetch" href="/cheatsheet/assets/js/19.70691127.js"><link rel="prefetch" href="/cheatsheet/assets/js/20.8a4aefcc.js"><link rel="prefetch" href="/cheatsheet/assets/js/21.6d18d5dd.js"><link rel="prefetch" href="/cheatsheet/assets/js/22.be9ef920.js"><link rel="prefetch" href="/cheatsheet/assets/js/23.bbac905a.js"><link rel="prefetch" href="/cheatsheet/assets/js/24.5a2d22c7.js"><link rel="prefetch" href="/cheatsheet/assets/js/25.d95600b1.js"><link rel="prefetch" href="/cheatsheet/assets/js/26.c1580b1c.js"><link rel="prefetch" href="/cheatsheet/assets/js/27.047c397e.js"><link rel="prefetch" href="/cheatsheet/assets/js/28.3e9800e0.js"><link rel="prefetch" href="/cheatsheet/assets/js/29.dc84a5e3.js"><link rel="prefetch" href="/cheatsheet/assets/js/3.5b615071.js"><link rel="prefetch" href="/cheatsheet/assets/js/30.b0b4d24c.js"><link rel="prefetch" href="/cheatsheet/assets/js/31.fef72a70.js"><link rel="prefetch" href="/cheatsheet/assets/js/32.1ba89edf.js"><link rel="prefetch" href="/cheatsheet/assets/js/33.add82e02.js"><link rel="prefetch" href="/cheatsheet/assets/js/34.cb616d85.js"><link rel="prefetch" href="/cheatsheet/assets/js/36.94afb0ea.js"><link rel="prefetch" href="/cheatsheet/assets/js/37.0a1e320f.js"><link rel="prefetch" href="/cheatsheet/assets/js/4.0d44352e.js"><link rel="prefetch" href="/cheatsheet/assets/js/5.2c4af6ff.js"><link rel="prefetch" href="/cheatsheet/assets/js/6.d0f6a18c.js"><link rel="prefetch" href="/cheatsheet/assets/js/7.88a699ce.js"><link rel="prefetch" href="/cheatsheet/assets/js/8.c81763b1.js"><link rel="prefetch" href="/cheatsheet/assets/js/9.65a54d23.js">
+    <link rel="stylesheet" href="/cheatsheet/assets/css/0.styles.545a25f0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/cheatsheet/" class="home-link router-link-active"><!----> <span class="site-name">CheatSheet</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/cheatsheet/ol-tools/" class="sidebar-link">在线工具</a></li><li><a href="/cheatsheet/table/" class="sidebar-link">对照表</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/dev/" class="sidebar-heading clickable"><span>开发工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/se/" class="sidebar-heading clickable"><span>软件工程</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/component/" class="sidebar-heading clickable"><span>软件工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/linux/" class="sidebar-heading clickable"><span>Linux</span> <span class="arrow right"></span></a> <!----></section></li><li><a href="/cheatsheet/shell/" class="active sidebar-link">Shell</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#版本" class="sidebar-link">版本</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#变量" class="sidebar-link">变量</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#数组" class="sidebar-link">数组</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#函数" class="sidebar-link">函数</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#控制结构" class="sidebar-link">控制结构</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#数据运算" class="sidebar-link">数据运算</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#shell-解释过程" class="sidebar-link">Shell 解释过程</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#大括号扩展" class="sidebar-link">大括号扩展</a></li><li class="sidebar-sub-header"><a href="/cheatsheet/shell/#远程执行" class="sidebar-link">远程执行</a></li></ul></li><li><a href="/cheatsheet/macos/" class="sidebar-link">MacOS</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/editor/" class="sidebar-heading clickable"><span>知识工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/collections/" class="sidebar-heading clickable"><span>收藏</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="shell"><a href="#shell" class="header-anchor">#</a> Shell</h1> <h2 id="版本"><a href="#版本" class="header-anchor">#</a> 版本</h2> <h3 id="shell-流派"><a href="#shell-流派" class="header-anchor">#</a> Shell 流派</h3> <div class="language- extra-class"><pre class="language-text"><code>sh：
+burne shell (sh)   
+burne again shell (bash)   
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>csh：
+c shell (csh)   
+tc shell (tcsh)   
+korn shell (ksh)    
+</code></pre></div><p>Bash 是在 GNU 项目中开发的，依据 GPL 发布。<br>
+csh、tcsh、zsh、ash 和 scsh 都是依据 BSD 或一种类似 BSD 的许可来发布。<br>
+Korn shell 可依据 Common Public License 使用。</p> <h3 id="系统安装的-shell"><a href="#系统安装的-shell" class="header-anchor">#</a> 系统安装的 Shell</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token variable">$cat</span> /etc/shells
+<span class="token comment"># List of acceptable shells for chpass(1).</span>
+<span class="token comment"># Ftpd will not allow users to connect who are not using</span>
+<span class="token comment"># one of these shells.</span>
+
+/bin/bash
+/bin/csh
+/bin/dash
+/bin/ksh
+/bin/sh
+/bin/tcsh
+/bin/zsh
+</code></pre></div><h1 id="当前正在使用的shell"><a href="#当前正在使用的shell" class="header-anchor">#</a> 当前正在使用的Shell</h1> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 最常用的查看Shell的命令，但不一定能实时反映当前Shell</span>
+$ <span class="token builtin class-name">echo</span> <span class="token environment constant">$SHELL</span>
+/bin/zsh
+
+<span class="token comment"># 以下用法并不是所有Shell都支持</span>
+$ <span class="token builtin class-name">echo</span> <span class="token variable">$0</span>
+-zsh
+
+<span class="token comment"># 从环境变量查看</span>
+$ <span class="token function">env</span> <span class="token operator">|</span> <span class="token function">grep</span> <span class="token environment constant">SHELL</span>
+<span class="token assign-left variable"><span class="token environment constant">SHELL</span></span><span class="token operator">=</span>/bin/zsh
+
+<span class="token comment"># 查看当前进程</span>
+$ <span class="token function">ps</span>
+  PID TTY           TIME CMD
+<span class="token number">70143</span> ttys000    <span class="token number">0</span>:00.03 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp sunny
+<span class="token number">70145</span> ttys000    <span class="token number">0</span>:00.04 -zsh
+
+<span class="token comment"># 先查看当前Shell的pid，再定位到此Shell进程</span>
+$ <span class="token function">ps</span> -ef <span class="token operator">|</span> <span class="token function">grep</span> <span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> $$<span class="token variable">)</span></span>
+  <span class="token number">503</span> <span class="token number">70145</span> <span class="token number">70144</span>   <span class="token number">0</span> <span class="token number">10</span>:12AM ttys000    <span class="token number">0</span>:00.05 -zsh
+    <span class="token number">0</span> <span class="token number">70204</span> <span class="token number">70145</span>   <span class="token number">0</span> <span class="token number">10</span>:22AM ttys000    <span class="token number">0</span>:00.00 <span class="token function">ps</span> -ef
+  <span class="token number">503</span> <span class="token number">70206</span> <span class="token number">70145</span>   <span class="token number">0</span> <span class="token number">10</span>:22AM ttys000    <span class="token number">0</span>:00.00 <span class="token function">grep</span> <span class="token number">70145</span>
+
+<span class="token comment"># 执行一个不存在的命令</span>
+$ tom
+zsh: <span class="token builtin class-name">command</span> not found: tom
+</code></pre></div><h1 id="切换shell"><a href="#切换shell" class="header-anchor">#</a> 切换Shell</h1> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 需要输入用户密码</span>
+$ chsh -s /usr/bin/bash
+Changing shell <span class="token keyword">for</span> sunny.
+密码：
+
+$ <span class="token builtin class-name">echo</span> <span class="token environment constant">$SHELL</span>
+/bin/bash
+
+<span class="token comment"># 重新登录后生效</span>
+$ <span class="token function">env</span> <span class="token operator">|</span> <span class="token function">grep</span> <span class="token environment constant">SHELL</span>
+<span class="token assign-left variable"><span class="token environment constant">SHELL</span></span><span class="token operator">=</span>/usr/bin/bash
+
+</code></pre></div><h2 id="变量"><a href="#变量" class="header-anchor">#</a> 变量</h2> <h3 id="内建变量"><a href="#内建变量" class="header-anchor">#</a> 内建变量</h3> <h4 id=""><a href="#" class="header-anchor">#</a> ☀️ <mjx-container jax="CHTML" class="MathJax"><mjx-math class=" MJX-TEX"><mjx-TeXAtom><mjx-mo class="mjx-n"><mjx-c c="@"></mjx-c></mjx-mo></mjx-TeXAtom><mjx-mo space="4" class="mjx-n"><mjx-utext variant="normal" style="font-family:serif;">与</mjx-utext></mjx-mo></mjx-math></mjx-container>*</h4> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/usr/bin/env bash</span>
+<span class="token keyword">function</span> <span class="token function-name function">func1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'&gt;&gt; TEST <span class="token variable">$*</span> OUTPUT: '</span>
+  func2 <span class="token variable">$*</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'&gt;&gt; TEST <span class="token variable">$@</span> OUTPUT: '</span>
+  func2 <span class="token variable">$@</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'&gt;&gt; TEST &quot;<span class="token variable">$*</span>&quot; OUTPUT: '</span>
+  func2 <span class="token string">&quot;<span class="token variable">$*</span>&quot;</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'&gt;&gt; TEST &quot;<span class="token variable">$@</span>&quot; OUTPUT: '</span>
+  func2 <span class="token string">&quot;<span class="token variable">$@</span>&quot;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function-name function">func2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'<span class="token variable">$1</span> -&gt; '</span><span class="token string">&quot;<span class="token variable">$1</span>&quot;</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'<span class="token variable">$2</span> -&gt; '</span><span class="token string">&quot;<span class="token variable">$2</span>&quot;</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">'<span class="token variable">$3</span> -&gt; '</span><span class="token string">&quot;<span class="token variable">$3</span>&quot;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment"># Test</span>
+func1 <span class="token string">&quot;1.1 1.2&quot;</span> <span class="token string">&quot;2.1&quot;</span>
+</code></pre></div><p>$<em>、 <mjx-container jax="CHTML" class="MathJax"><mjx-math class=" MJX-TEX"><mjx-TeXAtom><mjx-mo class="mjx-n"><mjx-c c="@"></mjx-c></mjx-mo></mjx-TeXAtom><mjx-mo space="4" class="mjx-n"><mjx-utext variant="normal" style="font-family:serif;">、</mjx-utext><mjx-c c="22"></mjx-c></mjx-mo></mjx-math></mjx-container></em>&quot;、 &quot;$@&quot; 作为参数传递的输出：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token operator">&gt;&gt;</span> TEST <span class="token variable">$*</span> OUTPUT:
+<span class="token variable">$1</span> -<span class="token operator">&gt;</span> <span class="token number">1.1</span>
+<span class="token variable">$2</span> -<span class="token operator">&gt;</span> <span class="token number">1.2</span>
+<span class="token variable">$3</span> -<span class="token operator">&gt;</span> <span class="token number">2.1</span>
+<span class="token operator">&gt;&gt;</span> TEST <span class="token variable">$@</span> OUTPUT:
+<span class="token variable">$1</span> -<span class="token operator">&gt;</span> <span class="token number">1.1</span>
+<span class="token variable">$2</span> -<span class="token operator">&gt;</span> <span class="token number">1.2</span>
+<span class="token variable">$3</span> -<span class="token operator">&gt;</span> <span class="token number">2.1</span>
+<span class="token operator">&gt;&gt;</span> TEST <span class="token string">&quot;<span class="token variable">$*</span>&quot;</span> OUTPUT:
+<span class="token variable">$1</span> -<span class="token operator">&gt;</span> <span class="token number">1.1</span> <span class="token number">1.2</span> <span class="token number">2.1</span>
+<span class="token variable">$2</span> -<span class="token operator">&gt;</span>
+<span class="token variable">$3</span> -<span class="token operator">&gt;</span>
+<span class="token operator">&gt;&gt;</span> TEST <span class="token string">&quot;<span class="token variable">$@</span>&quot;</span> OUTPUT:
+<span class="token variable">$1</span> -<span class="token operator">&gt;</span> <span class="token number">1.1</span> <span class="token number">1.2</span>
+<span class="token variable">$2</span> -<span class="token operator">&gt;</span> <span class="token number">2.1</span>
+<span class="token variable">$3</span> -<span class="token operator">&gt;</span>
+</code></pre></div><p>总结：</p> <ol><li>$* $@ 无区别，所有参数整体会按照 IFS指定分隔符(默认空格)分割，重新作为参数。</li> <li>&quot;<mjx-container jax="CHTML" class="MathJax"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c c="2217"></mjx-c></mjx-mo><mjx-mo space="4" class="mjx-n"><mjx-c c="22"></mjx-c><mjx-c c="22"></mjx-c></mjx-mo></mjx-math></mjx-container>@&quot; 加双引号的引用才有意义，&quot;<mjx-container jax="CHTML" class="MathJax"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c c="2217"></mjx-c></mjx-mo><mjx-mo space="4" class="mjx-n"><mjx-c c="22"></mjx-c><mjx-utext variant="normal" style="font-family:serif;">把</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">参</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">数</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">作</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">为</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">整</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">体</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">传</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">递</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">，</mjx-utext><mjx-c c="22"></mjx-c></mjx-mo></mjx-math></mjx-container>@&quot; 仍按照原有参数传递。</li></ol> <h3 id="变量条件替换"><a href="#变量条件替换" class="header-anchor">#</a> 变量条件替换</h3> <h2 id="数组"><a href="#数组" class="header-anchor">#</a> 数组</h2> <h2 id="函数"><a href="#函数" class="header-anchor">#</a> 函数</h2> <h2 id="控制结构"><a href="#控制结构" class="header-anchor">#</a> 控制结构</h2> <h3 id="case"><a href="#case" class="header-anchor">#</a> case</h3> <h3 id="for"><a href="#for" class="header-anchor">#</a> for</h3> <ul><li>Shell中常用的是：</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">for</span><span class="token variable"><span class="token punctuation">((</span>i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">10</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">))</span></span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">seq</span> <span class="token number">10</span><span class="token variable">)</span></span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">`</span><span class="token function">ls</span><span class="token variable">`</span></span> 
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">ls</span> *.txt<span class="token variable">)</span></span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token variable">$*</span> 
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token variable">${arr<span class="token punctuation">[</span>@<span class="token punctuation">]</span>}</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> f1 f2 f3 
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">..</span><span class="token number">10</span><span class="token punctuation">}</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">i</span> <span class="token keyword">in</span> *.txt
+</code></pre></div><p>for in语句与<code></code>和<mjx-container jax="CHTML" class="MathJax"><mjx-math class=" MJX-TEX"><mjx-mo class="mjx-n"><mjx-c c="("></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c c=")"></mjx-c></mjx-mo><mjx-mo space="4" class="mjx-n"><mjx-utext variant="normal" style="font-family:serif;">合</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">用</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">，</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">利</mjx-utext><mjx-utext variant="normal" style="font-family:serif;">用</mjx-utext></mjx-mo><mjx-mo space="4" class="mjx-n"><mjx-c c="2018"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c c="2018"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-utext variant="normal" style="font-family:serif;">或</mjx-utext></mjx-mo></mjx-math></mjx-container>( ) 将多行合为一行，实际是合为一个字符串数组。<br>
+for num in $(seq 1 100)</p> <ul><li>for 循环中的变量</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> for_var.sh 
+<span class="token comment">#! /bin/sh -</span>
+
+<span class="token assign-left variable">file_name</span><span class="token operator">=</span>/etc/passwd
+<span class="token assign-left variable">var</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">line</span> <span class="token keyword">in</span> 
+<span class="token keyword">do</span>
+  <span class="token variable"><span class="token punctuation">((</span>var <span class="token operator">++</span> <span class="token punctuation">))</span></span>
+<span class="token keyword">done</span> <span class="token operator">&lt;</span> <span class="token variable">${file_name}</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;var: <span class="token variable">${var}</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;line: <span class="token variable">${line}</span>&quot;</span>
+
+$ ./for_var.sh 
+var: <span class="token number">0</span>
+line: 
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> for_var_02.sh 
+<span class="token comment">#! /bin/sh -</span>
+
+<span class="token assign-left variable">file_name</span><span class="token operator">=</span>/etc/passwd
+<span class="token assign-left variable">var</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token function">cat</span> <span class="token variable">${file_name}</span> <span class="token operator">|</span> <span class="token keyword">for</span> <span class="token for-or-select variable">line</span> <span class="token keyword">in</span>
+<span class="token keyword">do</span>
+  <span class="token variable"><span class="token punctuation">((</span>var <span class="token operator">++</span> <span class="token punctuation">))</span></span>
+<span class="token keyword">done</span> 
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;var: <span class="token variable">${var}</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;line: <span class="token variable">${line}</span>&quot;</span>
+
+$ ./for_var_02.sh 
+var: <span class="token number">0</span>
+line: 
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> for_var_01.sh 
+<span class="token comment">#! /bin/sh -</span>
+
+<span class="token assign-left variable">file_name</span><span class="token operator">=</span>/etc/passwd
+<span class="token assign-left variable">var</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token assign-left variable"><span class="token environment constant">IFS</span></span><span class="token operator">=</span>$<span class="token string">'<span class="token entity" title="\n">\n</span>'</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">line</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">$(</span> <span class="token function">cat</span> $<span class="token punctuation">{</span>file_name<span class="token punctuation">}</span>  <span class="token variable">)</span></span>
+<span class="token keyword">do</span>
+  <span class="token variable"><span class="token punctuation">((</span>var <span class="token operator">++</span> <span class="token punctuation">))</span></span>
+<span class="token keyword">done</span> 
+<span class="token assign-left variable"><span class="token environment constant">IFS</span></span><span class="token operator">=</span>$<span class="token string">'<span class="token entity" title="\n">\n</span><span class="token entity" title="\t">\t</span> '</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;var: <span class="token variable">${var}</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;line: <span class="token variable">${line}</span>&quot;</span>
+
+$ ./for_var_01.sh 
+var: <span class="token number">39</span>
+line: code:x:506:508::/home/code:/bin/bash
+
+$ <span class="token function">grep</span> -n <span class="token string">&quot;code:x:506:508::/home/code:/bin/bash&quot;</span> /etc/passwd
+<span class="token number">39</span>:code:x:506:508::/home/code:/bin/bash
+</code></pre></div><h3 id="while、until"><a href="#while、until" class="header-anchor">#</a> while、until</h3> <ul><li>while 形式</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">while</span> 命令/条件
+<span class="token keyword">do</span>
+      语句
+<span class="token keyword">done</span>
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">until</span> 命令/条件
+<span class="token keyword">do</span>
+      语句
+<span class="token keyword">done</span>
+</code></pre></div><p>unitl 循环不常用，但如果在等待一个事件的发生时，until就可以很好地发挥作用</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">until</span> <span class="token function">who</span> <span class="token operator">|</span> <span class="token function">grep</span> <span class="token string">&quot;<span class="token variable">$user</span>&quot;</span> <span class="token operator">&gt;</span> /dev/null
+<span class="token keyword">do</span>
+   <span class="token function">sleep</span> <span class="token number">30</span>
+<span class="token keyword">done</span>
+以上代码，实现等待某个用户登录。
+</code></pre></div><ul><li>while 循环中的变量</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> while_var.sh 
+<span class="token comment">#! /bin/sh -</span>
+
+<span class="token assign-left variable">file_name</span><span class="token operator">=</span>/etc/passwd
+<span class="token assign-left variable">var</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token keyword">while</span> <span class="token builtin class-name">read</span> line 
+<span class="token keyword">do</span>
+  <span class="token variable"><span class="token punctuation">((</span>var <span class="token operator">++</span> <span class="token punctuation">))</span></span>
+<span class="token keyword">done</span> <span class="token operator">&lt;</span> <span class="token variable">${file_name}</span>
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;var: <span class="token variable">${var}</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;line: <span class="token variable">${line}</span>&quot;</span>
+
+$ ./while_var.sh 
+var: <span class="token number">39</span>
+line: 
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> while_var_01.sh 
+<span class="token comment">#! /bin/sh -</span>
+
+<span class="token assign-left variable">file_name</span><span class="token operator">=</span>/etc/passwd
+<span class="token assign-left variable">var</span><span class="token operator">=</span><span class="token number">0</span>
+
+<span class="token function">cat</span> <span class="token variable">${file_name}</span> <span class="token operator">|</span> <span class="token keyword">while</span> <span class="token builtin class-name">read</span> line_var
+<span class="token keyword">do</span>
+  <span class="token variable"><span class="token punctuation">((</span>var <span class="token operator">++</span> <span class="token punctuation">))</span></span>
+<span class="token keyword">done</span> 
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;var: <span class="token variable">${var}</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;line: <span class="token variable">${line_var}</span>&quot;</span>
+
+$ ./while_var_01.sh 
+var: <span class="token number">0</span>
+line: 
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>$ <span class="token function">cat</span> while_var_02.sh 
+<span class="token comment">#! /bin/sh -</span>
+
+<span class="token assign-left variable">file_name</span><span class="token operator">=</span>/etc/passwd
+<span class="token assign-left variable">var</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">3</span>&lt;</span><span class="token string">&quot;<span class="token variable">${file_name}</span>&quot;</span>
+<span class="token keyword">while</span> <span class="token builtin class-name">read</span> -u3 line 
+<span class="token keyword">do</span>
+  <span class="token variable"><span class="token punctuation">((</span>var <span class="token operator">++</span> <span class="token punctuation">))</span></span>
+<span class="token keyword">done</span> 
+<span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">3</span>&lt;&amp;</span>-
+
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;var: <span class="token variable">${var}</span>&quot;</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;line: <span class="token variable">${line}</span>&quot;</span>
+
+$ ./while_var_02.sh 
+var: <span class="token number">39</span>
+line: 
+</code></pre></div><p>注：使用管道，会产生子进程，while循环再子进程中执行，变量的改变，不会影响父进程。</p> <h3 id="for-while-逐行处理文件"><a href="#for-while-逐行处理文件" class="header-anchor">#</a> for/while 逐行处理文件</h3> <ul><li>cat while read line</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">function</span> <span class="token function-name function">cat_while_read_line</span>
+<span class="token punctuation">{</span>
+  <span class="token function">cat</span> <span class="token variable">${INFILE}</span> <span class="token operator">|</span> <span class="token keyword">while</span> <span class="token builtin class-name">read</span> LINE
+  <span class="token keyword">do</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> <span class="token operator">&gt;&gt;</span> <span class="token variable">${OUTFILE}</span>
+  <span class="token keyword">done</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>while read LINE buttom</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">while</span> <span class="token builtin class-name">read</span> LINE
+<span class="token keyword">do</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> <span class="token operator">&gt;&gt;</span> <span class="token variable">${OUTFILE}</span>
+<span class="token keyword">done</span>  <span class="token operator">&lt;</span>  <span class="token variable">${INFILE}</span> 
+</code></pre></div><p>此方法是逐行处理文件中，效率最高的</p> <ul><li>for LINE cat FILE</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">for</span> <span class="token for-or-select variable">LINE</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">`</span><span class="token function">cat</span> $<span class="token punctuation">{</span>INFILE<span class="token punctuation">}</span><span class="token variable">`</span></span>
+<span class="token keyword">do</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> <span class="token operator">&gt;&gt;</span> <span class="token variable">${OUTFILE}</span>
+<span class="token keyword">done</span>
+</code></pre></div><ul><li>while read line FD IN</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">exec</span>  <span class="token operator"><span class="token file-descriptor important">3</span>&lt;</span><span class="token variable">${INFILE}</span>
+<span class="token keyword">while</span> <span class="token builtin class-name">read</span> -u3 LINE
+<span class="token keyword">do</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> <span class="token operator">&gt;&gt;</span> <span class="token variable">${OUTFILE}</span>
+<span class="token keyword">done</span>
+<span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">3</span>&lt;&amp;</span>-
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">3</span>&lt;</span><span class="token file-descriptor important">&amp;0</span>
+<span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">0</span>&lt;</span><span class="token variable">${INFILE}</span>
+<span class="token keyword">while</span> <span class="token builtin class-name">read</span> LINE
+<span class="token keyword">do</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> <span class="token operator">&gt;&gt;</span> <span class="token variable">${OUTFILE}</span>
+<span class="token keyword">done</span>
+<span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">0</span>&lt;</span><span class="token file-descriptor important">&amp;3</span>
+<span class="token builtin class-name">exec</span> <span class="token operator"><span class="token file-descriptor important">3</span>&lt;&amp;</span>-
+</code></pre></div><p>read默认从标准输入读取，方法1可能会存在一个问题，即循环体中如果存在从标准输入读取的命令。<br>
+会导致本该只有read读取的输入，被该命令读取了。<br>
+这里将文件关联到文件描述符3，read从文件描述符3中读取。</p> <h3 id="for-while-逐行处理命令输出"><a href="#for-while-逐行处理命令输出" class="header-anchor">#</a> for/while 逐行处理命令输出</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">while</span> <span class="token builtin class-name">read</span> LINE
+<span class="token keyword">do</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> 
+<span class="token keyword">done</span>  <span class="token operator">&lt;</span>  <span class="token operator">&lt;</span><span class="token punctuation">(</span><span class="token builtin class-name">command</span><span class="token punctuation">)</span>
+</code></pre></div><p>两个左尖括号之间有空格<br>
+&lt;(command) 符号表示执行命令，并把命令输出指向循环底部。</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token keyword">while</span> <span class="token builtin class-name">read</span> LINE
+<span class="token keyword">do</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">${LINE}</span>&quot;</span> 
+<span class="token keyword">done</span>  <span class="token operator">&lt;&lt;</span><span class="token string">EOF
+<span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">command</span><span class="token variable">)</span></span>
+EOF</span>
+</code></pre></div><p>使用here document方法重定向输入。</p> <h1 id="here-doc"><a href="#here-doc" class="header-anchor">#</a> Here Doc</h1> <p>Shell 脚本程序中，向一条命令传递输入的一种特殊方法是使用here文档。<br>
+一个here document就是一段带有特殊目的的代码段。</p> <ul><li>格式：</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code>COMMAND <span class="token operator">&lt;&lt;</span><span class="token string">SpecialString
+...
+SpecialString</span> 用来界定命令序列的范围，
+是一个特殊的字符序列，用来界定命令序列的范围，可自定义，但不能出现在传递命令的文档内容中。
+</code></pre></div><ul><li>应用</li></ul> <p>主要用于有大量文本输入的情况。</p> <ul><li>注意</li></ul> <div class="language- extra-class"><pre class="language-text"><code>1. 某些工具是不能放入here document中运行的。
+2. 结尾的limit string, 就是here document最后一行的limit string, 
+  必须从第一个字符开始，它的前面不能够有任何前置的空白。
+  而在这个limit string后边的空白也会引起异常，空白将会阻止limit string的识别。
+3. 对于那些使用&quot;here document&quot;，并且非常复杂的任务, 
+  最好考虑使用expect脚本语言，这种语言就是为了达到向交互程序添加输入的目的而量身定做的。
+</code></pre></div><h2 id="数据运算"><a href="#数据运算" class="header-anchor">#</a> 数据运算</h2> <h2 id="shell-解释过程"><a href="#shell-解释过程" class="header-anchor">#</a> Shell 解释过程</h2> <h2 id="大括号扩展"><a href="#大括号扩展" class="header-anchor">#</a> 大括号扩展</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 形式上有一个可选的前缀，其后是一组包含在大括号中的用逗号分隔的字符串或者是序列表达式，最后是一个可选的后缀。</span>
+$ <span class="token builtin class-name">echo</span> a<span class="token punctuation">{</span>b,c<span class="token punctuation">}</span>e
+abe ace
+
+$ <span class="token builtin class-name">echo</span> <span class="token punctuation">{</span>a<span class="token punctuation">..</span>e<span class="token punctuation">}</span>
+a b c d e
+
+$ <span class="token builtin class-name">echo</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">..</span>-1<span class="token punctuation">}</span>
+<span class="token number">1</span> <span class="token number">0</span> -1
+
+<span class="token comment"># 嵌套，每个扩展字符串的结果是不排序的，依然按照从左到右的顺序依次扩展</span>
+$ <span class="token builtin class-name">echo</span> a<span class="token punctuation">{</span><span class="token punctuation">{</span>b,c,d<span class="token punctuation">}</span>a,<span class="token punctuation">{</span>e,f,g<span class="token punctuation">}</span>b,h<span class="token punctuation">}</span>i
+abai acai adai aebi afbi agbi ahi
+
+$ <span class="token builtin class-name">echo</span> <span class="token punctuation">{</span>a,b<span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">..</span><span class="token number">3</span><span class="token punctuation">}</span>,c<span class="token punctuation">}</span>
+a b1 b2 b3 c
+
+<span class="token comment"># Bash 4.0 中在大括号扩展中引入了增量的功能  </span>
+$ <span class="token builtin class-name">echo</span> <span class="token punctuation">{</span><span class="token number">2</span><span class="token punctuation">..</span><span class="token number">10</span><span class="token punctuation">..</span><span class="token number">2</span><span class="token punctuation">}</span>
+<span class="token number">2</span> <span class="token number">4</span> <span class="token number">6</span> <span class="token number">8</span> <span class="token number">10</span>  
+
+<span class="token comment"># 如果扩展中的序列表达式中的数字是整数，并且有前导0时，  </span>
+<span class="token comment"># Bash 会试图让每个生产的量都含有同样多的位数，如果位数不同就会在前面补0  </span>
+
+$ <span class="token builtin class-name">echo</span> <span class="token punctuation">{</span>002<span class="token punctuation">..</span><span class="token number">10</span><span class="token punctuation">..</span><span class="token number">2</span><span class="token punctuation">}</span>
+002 004 006 008 010
+
+<span class="token comment"># 注意：</span>
+<span class="token comment"># 大括号扩展在其他所有扩展之前进行，在其他扩展中的特殊字符都被保留下来。</span>
+<span class="token comment"># 为了防止被认为是大括号的一部分，“{”或者“,”可以用反斜杠转义。</span>
+<span class="token comment"># 为了避免与参数扩展冲突，大括号扩展不会识别字符串中的“${”</span>
+</code></pre></div><h2 id="远程执行"><a href="#远程执行" class="header-anchor">#</a> 远程执行</h2> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">ssh</span> user@remoteNode “cd /home <span class="token punctuation">;</span> ls”
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/cheatsheet/linux/tmux/" class="prev">
+        tmux
+      </a></span> <span class="next"><a href="/cheatsheet/macos/">
+        MacOS
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/cheatsheet/assets/js/app.c53346be.js" defer></script><script src="/cheatsheet/assets/js/2.3412115d.js" defer></script><script src="/cheatsheet/assets/js/35.cd54f693.js" defer></script>
+  </body>
+</html>

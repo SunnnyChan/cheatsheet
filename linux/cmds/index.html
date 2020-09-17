@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>命令 Collections | CheatSheet</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/cheatsheet/assets/css/0.styles.545a25f0.css" as="style"><link rel="preload" href="/cheatsheet/assets/js/app.c53346be.js" as="script"><link rel="preload" href="/cheatsheet/assets/js/2.3412115d.js" as="script"><link rel="preload" href="/cheatsheet/assets/js/24.5a2d22c7.js" as="script"><link rel="prefetch" href="/cheatsheet/assets/js/10.d1d862ba.js"><link rel="prefetch" href="/cheatsheet/assets/js/11.0e19556f.js"><link rel="prefetch" href="/cheatsheet/assets/js/12.4b2e0e65.js"><link rel="prefetch" href="/cheatsheet/assets/js/13.f379e0e5.js"><link rel="prefetch" href="/cheatsheet/assets/js/14.9c50cdc1.js"><link rel="prefetch" href="/cheatsheet/assets/js/15.472d10f2.js"><link rel="prefetch" href="/cheatsheet/assets/js/16.6031a084.js"><link rel="prefetch" href="/cheatsheet/assets/js/17.fd711da3.js"><link rel="prefetch" href="/cheatsheet/assets/js/18.08d5434b.js"><link rel="prefetch" href="/cheatsheet/assets/js/19.70691127.js"><link rel="prefetch" href="/cheatsheet/assets/js/20.8a4aefcc.js"><link rel="prefetch" href="/cheatsheet/assets/js/21.6d18d5dd.js"><link rel="prefetch" href="/cheatsheet/assets/js/22.be9ef920.js"><link rel="prefetch" href="/cheatsheet/assets/js/23.bbac905a.js"><link rel="prefetch" href="/cheatsheet/assets/js/25.d95600b1.js"><link rel="prefetch" href="/cheatsheet/assets/js/26.c1580b1c.js"><link rel="prefetch" href="/cheatsheet/assets/js/27.047c397e.js"><link rel="prefetch" href="/cheatsheet/assets/js/28.3e9800e0.js"><link rel="prefetch" href="/cheatsheet/assets/js/29.dc84a5e3.js"><link rel="prefetch" href="/cheatsheet/assets/js/3.5b615071.js"><link rel="prefetch" href="/cheatsheet/assets/js/30.b0b4d24c.js"><link rel="prefetch" href="/cheatsheet/assets/js/31.fef72a70.js"><link rel="prefetch" href="/cheatsheet/assets/js/32.1ba89edf.js"><link rel="prefetch" href="/cheatsheet/assets/js/33.add82e02.js"><link rel="prefetch" href="/cheatsheet/assets/js/34.cb616d85.js"><link rel="prefetch" href="/cheatsheet/assets/js/35.cd54f693.js"><link rel="prefetch" href="/cheatsheet/assets/js/36.94afb0ea.js"><link rel="prefetch" href="/cheatsheet/assets/js/37.0a1e320f.js"><link rel="prefetch" href="/cheatsheet/assets/js/4.0d44352e.js"><link rel="prefetch" href="/cheatsheet/assets/js/5.2c4af6ff.js"><link rel="prefetch" href="/cheatsheet/assets/js/6.d0f6a18c.js"><link rel="prefetch" href="/cheatsheet/assets/js/7.88a699ce.js"><link rel="prefetch" href="/cheatsheet/assets/js/8.c81763b1.js"><link rel="prefetch" href="/cheatsheet/assets/js/9.65a54d23.js">
+    <link rel="stylesheet" href="/cheatsheet/assets/css/0.styles.545a25f0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/cheatsheet/" class="home-link router-link-active"><!----> <span class="site-name">CheatSheet</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/cheatsheet/ol-tools/" class="sidebar-link">在线工具</a></li><li><a href="/cheatsheet/table/" class="sidebar-link">对照表</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/dev/" class="sidebar-heading clickable"><span>开发工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/se/" class="sidebar-heading clickable"><span>软件工程</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/component/" class="sidebar-heading clickable"><span>软件工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/linux/" class="sidebar-heading clickable router-link-active open"><span>Linux</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/cheatsheet/linux/cls/" class="sidebar-link">命令行 - 场景应用</a></li><li><a href="/cheatsheet/linux/cmds/" class="active sidebar-link">命令 Collections</a></li><li><a href="/cheatsheet/linux/config/" class="sidebar-link">配置</a></li><li><a href="/cheatsheet/linux/centos/" class="sidebar-link">Centos</a></li><li><a href="/cheatsheet/linux/tls/" class="sidebar-link">工具</a></li><li><a href="/cheatsheet/linux/vim/" class="sidebar-link">VIM</a></li><li><a href="/cheatsheet/linux/tmux/" class="sidebar-link">tmux</a></li></ul></section></li><li><a href="/cheatsheet/shell/" class="sidebar-link">Shell</a></li><li><a href="/cheatsheet/macos/" class="sidebar-link">MacOS</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/editor/" class="sidebar-heading clickable"><span>知识工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/collections/" class="sidebar-heading clickable"><span>收藏</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="命令-collections"><a href="#命令-collections" class="header-anchor">#</a> 命令 Collections</h1> <div class="language-json extra-class"><pre class="language-json"><code>file <span class="token punctuation">{</span>
+    file ouput <span class="token punctuation">{</span>
+        cat - concatenate files and print on the standard output
+        head - output the first part of files
+        tail - output the last part of files
+        tailf - follow the growth of a log file
+    <span class="token punctuation">}</span>
+    file edit <span class="token punctuation">{</span>
+        join - join lines of two files on a common field
+        uniq - remove duplicate lines from a sorted file
+        sync - flush filesystem buffers 
+        tr - translate or delete characters
+        
+        dd - convert and copy a file
+    <span class="token punctuation">}</span>
+    file attribute <span class="token punctuation">{</span>
+        file - determine file type
+        du - estimate file space usage
+        touch - change file timestamps
+        stat - display file or filesystem status
+    <span class="token punctuation">}</span>
+    file name <span class="token punctuation">{</span>
+        basename - strip directory and suffix from filenames
+        dir - list directory contents
+    <span class="token punctuation">}</span>
+    file search<span class="token punctuation">{</span>
+        find - search for files in a directory hierarchy
+        grep<span class="token punctuation">,</span> egrep<span class="token punctuation">,</span> fgrep - print lines matching a pattern
+    <span class="token punctuation">}</span>
+    file format <span class="token punctuation">{</span>
+        dos<span class="token number">2</span>unix，unix<span class="token number">2</span>dos - Windows 和 Linux 文件格式转换
+            
+    <span class="token punctuation">}</span>
+    file diff <span class="token punctuation">{</span>
+        diff - find differences between two files
+        comm - compare two sorted files line by line
+    <span class="token punctuation">}</span>
+    file pack <span class="token punctuation">{</span>
+        gzip<span class="token punctuation">,</span> gunzip<span class="token punctuation">,</span> zcat - compress or expand files
+        zip<span class="token punctuation">,</span> zipcloak<span class="token punctuation">,</span> zipnote<span class="token punctuation">,</span> zipsplit - package and compress (archive) files<span class="token punctuation">,</span> unzip - list<span class="token punctuation">,</span> test and extract compressed files in a ZIP archive
+        
+    <span class="token punctuation">}</span>
+    file encode <span class="token punctuation">{</span>
+        iconv - Convert encoding of given files from one encoding to another
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+format oupt <span class="token punctuation">{</span>
+    column - columnate lists
+    nl - number lines of files
+    strings - print the strings of printable characters in files.
+    hexdump - hexdump - ascii<span class="token punctuation">,</span> decimal<span class="token punctuation">,</span> hexadecimal<span class="token punctuation">,</span> octal dump
+    xxd - make a hexdump or do the reverse.
+        
+    tsort - perform topological sort 拓扑排序
+<span class="token punctuation">}</span>
+preocess <span class="token punctuation">{</span>
+    pstree - display a tree of processes
+    killall - kill processes by name 杀死指定名字的进程
+    pidof - find the process ID of a running program. 查询运行程序的进程PID
+    wait - Wait for the specified process and report its termination status.
+    pidstat - Report statistics for Linux tasks.
+    
+    gdb <span class="token punctuation">{</span> 
+        strace - trace system calls and signals
+        pstack - print a stack trace of a running process
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+jobs <span class="token punctuation">{</span>
+    at<span class="token punctuation">,</span> batch<span class="token punctuation">,</span> atq<span class="token punctuation">,</span> atrm - queue<span class="token punctuation">,</span> examine or delete jobs for later execution
+<span class="token punctuation">}</span>
+statistics <span class="token punctuation">{</span>
+    wc - print the number of newlines<span class="token punctuation">,</span> words<span class="token punctuation">,</span> and bytes in files
+<span class="token punctuation">}</span>
+network<span class="token punctuation">{</span>
+    arp - manipulate the system ARP cache
+    route - show / manipulate the IP routing table
+    nslookup - query Internet name servers interactively
+    ifconfig - configure a network interface
+
+    nc - arbitrary TCP and UDP connections and listens
+<span class="token punctuation">}</span>
+terminal <span class="token punctuation">{</span>
+    terminal output <span class="token punctuation">{</span>
+        yes - output a string repeatedly until killed
+        echo - display a line of text
+        tee - read from standard input and write to standard output and files
+    <span class="token punctuation">}</span>
+    screen - screen manager with VT<span class="token number">100</span>/ANSI terminal emulation
+    reset，tset - terminal initialization 
+    clear - clear the terminal screen
+    tty - print the file name of the terminal connected to standard input
+    stty - change and print terminal line settings
+<span class="token punctuation">}</span>
+system <span class="token punctuation">{</span>
+    system load info <span class="token punctuation">{</span>
+        uptime - Tell how long the system has been running.
+        iostat - Report Central Processing Unit (CPU) statistics and input/output statistics for devices<span class="token punctuation">,</span> partitions and network filesystems (NFS).
+        top - display Linux tasks
+        vmstat - Report virtual memory statistics
+        monitor <span class="token punctuation">{</span>
+            watch - execute a program periodically<span class="token punctuation">,</span> showing output fullscreen
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    os info <span class="token punctuation">{</span>
+        uname - print system information
+        lsb_release - prints certain LSB (Linux Standard Base) and Distribution information 查看当前系统的发行版信息
+    <span class="token punctuation">}</span>
+    user <span class="token punctuation">{</span>
+        useradd，userdel，usermod - add<span class="token punctuation">,</span> delete<span class="token punctuation">,</span> modify a user account
+        who - show who is logged on
+        w - Show who is logged on and what they are doing.
+        last<span class="token punctuation">,</span> lastb - show listing of last logged in users
+        ac -  print statistics about users’ connect time
+    <span class="token punctuation">}</span>
+    authority <span class="token punctuation">{</span>
+        chgrp - change group ownership
+        chmod - change file access permissions
+        chown - change file owner and group
+        chroot - run command or interactive shell with special root directory
+    <span class="token punctuation">}</span>     
+    system service <span class="token punctuation">{</span>
+        insmod - simple program to insert a module into the Linux Kernel
+        mount， umount - mount/unmount file systems
+        chkconfig - updates and queries runlevel information for system services
+    <span class="token punctuation">}</span>
+    hardware info <span class="token punctuation">{</span>
+        free - Display amount of free and used memory in the system
+        dmidecode - 查看硬件信息
+        lsmod - program to show the status of modules in the Linux Kernel
+    <span class="token punctuation">}</span>    
+<span class="token punctuation">}</span>
+utility <span class="token punctuation">{</span>
+    bc - An arbitrary precision calculator language
+    date - print or set the system date and time
+    cal - displays a calendar
+    hwclock - query and set the hardware clock (RTC)  查询和设置硬件时钟
+    tzselect - select a time zone 选择时区
+<span class="token punctuation">}</span>
+shell code <span class="token punctuation">{</span>
+    system evn <span class="token punctuation">{</span>
+        env - run a program in a modified environment
+        set - set <span class="token punctuation">[</span>--abefhkmnptuvxBCHP<span class="token punctuation">]</span> <span class="token punctuation">[</span>-o option<span class="token punctuation">]</span> <span class="token punctuation">[</span>arg ...<span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+    <span class="token boolean">false</span> - do nothing<span class="token punctuation">,</span> unsuccessfully
+    <span class="token boolean">true</span> - do nothing<span class="token punctuation">,</span> successfully
+    sleep，usleep - delay for a specified amount of time<span class="token punctuation">,</span> sleep some number of microseconds(usleep)
+    eval - Read ARGs as input to the shell and execute the resulting command(s).
+<span class="token punctuation">}</span>
+command <span class="token punctuation">{</span>
+    type - indicate how it would be interpreted if used as a command name.
+    complete - specify how arguments are to be completed. bash参数补全功能
+    xargs - build and execute command lines from standard input
+    exec - Exec FILE<span class="token punctuation">,</span> replacing this shell with the specified program.
+    cmd search <span class="token punctuation">{</span>
+        whatis - search the whatis database for complete words.
+        which - shows the full path of (shell) commands.
+        whereis - locate the binary<span class="token punctuation">,</span> source<span class="token punctuation">,</span> and manual page files for a command
+        apropos -  search the whatis database for strings 根据关键字搜索命令
+    <span class="token punctuation">}</span>
+    help <span class="token punctuation">{</span>
+        help - BASH_BUILTINS info 显示Bash内建命令的帮助信息
+        info - read Info documents
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+C language <span class="token punctuation">{</span>
+    ar - create<span class="token punctuation">,</span> modify<span class="token punctuation">,</span> and extract from archives
+    ldd - print shared library dependencies
+<span class="token punctuation">}</span>
+</code></pre></div><p>ac -  print statistics about users’ connect time<br>
+apropos -  根据关键字搜索命令<br>
+ar - create, modify, and extract from archives<br>
+arp - manipulate the system ARP cache<br>
+at, batch, atq, atrm - queue, examine or delete jobs for later execution<br>
+basename - strip directory and suffix from filenames<br>
+bc - An arbitrary precision calculator language<br>
+date - print or set the system date and time<br>
+dd - convert and copy a file<br>
+diff - find differences between two files<br>
+dir - list directory contents<br>
+dmidecode - 查看硬件信息<br>
+du - estimate file space usage<br>
+dos2unix，unix2dos - Windows 和 Linux 文件格式转换<br>
+cal - displays a calendar<br>
+cat - concatenate files and print on the standard output<br>
+column - columnate lists<br>
+comm - compare two sorted files line by line<br>
+complete - specify how arguments are to be completed. bash参数补全功能<br>
+chgrp - change group ownership<br>
+chkconfig - updates and queries runlevel information for system services<br>
+chmod - change file access permissions<br>
+chown - change file owner and group<br>
+chroot - run command or interactive shell with special root directory<br>
+clear - clear the terminal screen<br>
+echo - display a line of text<br>
+env - run a program in a modified environment<br>
+exec - Exec FILE, replacing this shell with the specified program.<br>
+eval - Read ARGs as input to the shell and execute the resulting command(s).<br>
+false - do nothing, unsuccessfully<br>
+find - search for files in a directory hierarchy<br>
+free - Display amount of free and used memory in the system<br>
+grep, egrep, fgrep - print lines matching a pattern<br>
+gzip, gunzip, zcat - compress or expand files<br>
+head - output the first part of files<br>
+hexdump - 十六进制查看器<br>
+help - 显示Bash内建命令的帮助信息<br>
+hwclock - query and set the hardware clock (RTC)  查询和设置硬件时钟<br>
+iconv - Convert encoding of given files from one encoding to another<br>
+ifconfig - configure a network interface<br>
+info - read Info documents<br>
+insmod - simple program to insert a module into the Linux Kernel<br>
+iostat - Report Central Processing Unit (CPU) statistics and input/output statistics for devices, partitions and network filesystems (NFS).<br>
+join - join lines of two files on a common field<br>
+killall - kill processes by name 杀死指定名字的进程<br>
+last, lastb - show listing of last logged in users<br>
+lsb_release - prints certain LSB (Linux Standard Base) and Distribution information 查看当前系统的发行版信息<br>
+lsmod - program to show the status of modules in the Linux Kernel<br>
+mount， umount - mount/unmount file systems<br>
+nc - arbitrary TCP and UDP connections and listens<br>
+nl - number lines of files<br>
+nslookup - query Internet name servers interactively<br>
+pidof - find the process ID of a running program. 查询运行程序的进程PID<br>
+pidstat - Report statistics for Linux tasks.<br>
+pstree - display a tree of processes<br>
+pstack - print a stack trace of a running process<br>
+reset，tset - terminal initialization<br>
+tail - output the last part of files<br>
+tailf - follow the growth of a log file<br>
+tee - read from standard input and write to standard output and files<br>
+top - display Linux tasks<br>
+touch - change file timestamps<br>
+true - do nothing, successfully<br>
+tr - translate or delete characters<br>
+tsort - perform topological sort 拓扑排序<br>
+tty - print the file name of the terminal connected to standard input<br>
+type - indicate how it would be interpreted if used as a command name.<br>
+tzselect - select a time zone 选择时区<br>
+route - show / manipulate the IP routing table<br>
+screen - screen manager with VT100/ANSI terminal emulation<br>
+set - set [--abefhkmnptuvxBCHP] [-o option] [arg ...]<br>
+sleep，usleep - delay for a specified amount of time, sleep some number of microseconds(usleep)<br>
+stat - display file or filesystem status<br>
+stty - change and print terminal line settings<br>
+strings - print the strings of printable characters in files.<br>
+strace - trace system calls and signals<br>
+sync - flush filesystem buffers<br>
+uname - print system information<br>
+uniq - remove duplicate lines from a sorted file<br>
+useradd，userdel，usermod - add, delete, modify a user account<br>
+uptime - Tell how long the system has been running.<br>
+vmstat - Report virtual memory statistics<br>
+w - Show who is logged on and what they are doing.<br>
+wait - Wait for the specified process and report its termination status.<br>
+watch - execute a program periodically, showing output fullscreen<br>
+wc - print the number of newlines, words, and bytes in files<br>
+whatis - search the whatis database for complete words.<br>
+whereis - locate the binary, source, and manual page files for a command<br>
+who - show who is logged on<br>
+xargs - build and execute command lines from standard input<br>
+xxd - make a hexdump or do the reverse.<br>
+yes - output a string repeatedly until killed<br>
+zip, zipcloak, zipnote, zipsplit - package and compress (archive) files<br>
+unzip - list, test and extract compressed files in a ZIP archive</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/cheatsheet/linux/cls/" class="prev">
+        命令行 - 场景应用
+      </a></span> <span class="next"><a href="/cheatsheet/linux/config/">
+        配置
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/cheatsheet/assets/js/app.c53346be.js" defer></script><script src="/cheatsheet/assets/js/2.3412115d.js" defer></script><script src="/cheatsheet/assets/js/24.5a2d22c7.js" defer></script>
+  </body>
+</html>

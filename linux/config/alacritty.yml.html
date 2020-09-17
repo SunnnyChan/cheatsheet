@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>alacritty.yml | CheatSheet</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/cheatsheet/assets/css/0.styles.545a25f0.css" as="style"><link rel="preload" href="/cheatsheet/assets/js/app.c53346be.js" as="script"><link rel="preload" href="/cheatsheet/assets/js/2.3412115d.js" as="script"><link rel="preload" href="/cheatsheet/assets/js/26.c1580b1c.js" as="script"><link rel="prefetch" href="/cheatsheet/assets/js/10.d1d862ba.js"><link rel="prefetch" href="/cheatsheet/assets/js/11.0e19556f.js"><link rel="prefetch" href="/cheatsheet/assets/js/12.4b2e0e65.js"><link rel="prefetch" href="/cheatsheet/assets/js/13.f379e0e5.js"><link rel="prefetch" href="/cheatsheet/assets/js/14.9c50cdc1.js"><link rel="prefetch" href="/cheatsheet/assets/js/15.472d10f2.js"><link rel="prefetch" href="/cheatsheet/assets/js/16.6031a084.js"><link rel="prefetch" href="/cheatsheet/assets/js/17.fd711da3.js"><link rel="prefetch" href="/cheatsheet/assets/js/18.08d5434b.js"><link rel="prefetch" href="/cheatsheet/assets/js/19.70691127.js"><link rel="prefetch" href="/cheatsheet/assets/js/20.8a4aefcc.js"><link rel="prefetch" href="/cheatsheet/assets/js/21.6d18d5dd.js"><link rel="prefetch" href="/cheatsheet/assets/js/22.be9ef920.js"><link rel="prefetch" href="/cheatsheet/assets/js/23.bbac905a.js"><link rel="prefetch" href="/cheatsheet/assets/js/24.5a2d22c7.js"><link rel="prefetch" href="/cheatsheet/assets/js/25.d95600b1.js"><link rel="prefetch" href="/cheatsheet/assets/js/27.047c397e.js"><link rel="prefetch" href="/cheatsheet/assets/js/28.3e9800e0.js"><link rel="prefetch" href="/cheatsheet/assets/js/29.dc84a5e3.js"><link rel="prefetch" href="/cheatsheet/assets/js/3.5b615071.js"><link rel="prefetch" href="/cheatsheet/assets/js/30.b0b4d24c.js"><link rel="prefetch" href="/cheatsheet/assets/js/31.fef72a70.js"><link rel="prefetch" href="/cheatsheet/assets/js/32.1ba89edf.js"><link rel="prefetch" href="/cheatsheet/assets/js/33.add82e02.js"><link rel="prefetch" href="/cheatsheet/assets/js/34.cb616d85.js"><link rel="prefetch" href="/cheatsheet/assets/js/35.cd54f693.js"><link rel="prefetch" href="/cheatsheet/assets/js/36.94afb0ea.js"><link rel="prefetch" href="/cheatsheet/assets/js/37.0a1e320f.js"><link rel="prefetch" href="/cheatsheet/assets/js/4.0d44352e.js"><link rel="prefetch" href="/cheatsheet/assets/js/5.2c4af6ff.js"><link rel="prefetch" href="/cheatsheet/assets/js/6.d0f6a18c.js"><link rel="prefetch" href="/cheatsheet/assets/js/7.88a699ce.js"><link rel="prefetch" href="/cheatsheet/assets/js/8.c81763b1.js"><link rel="prefetch" href="/cheatsheet/assets/js/9.65a54d23.js">
+    <link rel="stylesheet" href="/cheatsheet/assets/css/0.styles.545a25f0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/cheatsheet/" class="home-link router-link-active"><!----> <span class="site-name">CheatSheet</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="http://www.github.com/sunnnychan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/cheatsheet/ol-tools/" class="sidebar-link">在线工具</a></li><li><a href="/cheatsheet/table/" class="sidebar-link">对照表</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/dev/" class="sidebar-heading clickable"><span>开发工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/se/" class="sidebar-heading clickable"><span>软件工程</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/component/" class="sidebar-heading clickable"><span>软件工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/linux/" class="sidebar-heading clickable router-link-active"><span>Linux</span> <span class="arrow right"></span></a> <!----></section></li><li><a href="/cheatsheet/shell/" class="sidebar-link">Shell</a></li><li><a href="/cheatsheet/macos/" class="sidebar-link">MacOS</a></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/editor/" class="sidebar-heading clickable"><span>知识工具</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/cheatsheet/collections/" class="sidebar-heading clickable"><span>收藏</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="alacritty-yml"><a href="#alacritty-yml" class="header-anchor">#</a> alacritty.yml</h1> <p>~/.config/alacritty/alacritty.yml</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token comment"># Configuration for Alacritty, the GPU enhanced terminal emulator.</span>
+
+<span class="token comment"># Any items in the `env` entry below will be added as</span>
+<span class="token comment"># environment variables. Some entries may override variables</span>
+<span class="token comment"># set by alacritty itself.</span>
+<span class="token key atrule">env</span><span class="token punctuation">:</span>
+  <span class="token comment"># TERM variable</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># This value is used to set the `$TERM` environment variable for</span>
+  <span class="token comment"># each instance of Alacritty. If it is not present, alacritty will</span>
+  <span class="token comment"># check the local terminfo database and use `alacritty` if it is</span>
+  <span class="token comment"># available, otherwise `xterm-256color` is used.</span>
+  <span class="token key atrule">TERM</span><span class="token punctuation">:</span> xterm<span class="token punctuation">-</span>256color
+
+<span class="token key atrule">window</span><span class="token punctuation">:</span>
+  <span class="token comment"># Window dimensions (changes require restart)</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Specified in number of columns/lines, not pixels.</span>
+  <span class="token comment"># If both are `0`, this setting is ignored.</span>
+  <span class="token comment">#dimensions:</span>
+  <span class="token comment">#  columns: 0</span>
+  <span class="token comment">#  lines: 0</span>
+
+  <span class="token comment"># Window position (changes require restart)</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Specified in number of pixels.</span>
+  <span class="token comment"># If the position is not set, the window manager will handle the placement.</span>
+  <span class="token comment">#position:</span>
+  <span class="token comment">#  x: 0</span>
+  <span class="token comment">#  y: 0</span>
+
+  <span class="token comment"># Window padding (changes require restart)</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Blank space added around the window in pixels. This padding is scaled</span>
+  <span class="token comment"># by DPI and the specified value is always added at both opposing sides.</span>
+  <span class="token key atrule">padding</span><span class="token punctuation">:</span>
+    <span class="token key atrule">x</span><span class="token punctuation">:</span> <span class="token number">6</span>
+    <span class="token key atrule">y</span><span class="token punctuation">:</span> <span class="token number">6</span>
+
+  <span class="token comment"># Spread additional padding evenly around the terminal content.</span>
+  <span class="token comment">#dynamic_padding: false</span>
+
+  <span class="token comment"># Window decorations</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Values for `decorations`:</span>
+  <span class="token comment">#     - full: Borders and title bar</span>
+  <span class="token comment">#     - none: Neither borders nor title bar</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Values for `decorations` (macOS only):</span>
+  <span class="token comment">#     - transparent: Title bar, transparent background and title bar buttons</span>
+  <span class="token comment">#     - buttonless: Title bar, transparent background, but no title bar buttons</span>
+  <span class="token comment">#decorations: full</span>
+
+  <span class="token comment"># Startup Mode (changes require restart)</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Values for `startup_mode`:</span>
+  <span class="token comment">#   - Windowed</span>
+  <span class="token comment">#   - Maximized</span>
+  <span class="token comment">#   - Fullscreen</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Values for `startup_mode` (macOS only):</span>
+  <span class="token comment">#   - SimpleFullscreen</span>
+  <span class="token comment">#startup_mode: Windowed</span>
+
+  <span class="token comment"># Window title</span>
+  <span class="token key atrule">title</span><span class="token punctuation">:</span> Alacritty
+
+  <span class="token comment"># Window class (Linux/BSD only):</span>
+  <span class="token key atrule">class</span><span class="token punctuation">:</span>
+    <span class="token comment"># Application instance name</span>
+    <span class="token key atrule">instance</span><span class="token punctuation">:</span> Alacritty
+    <span class="token comment"># General application class</span>
+    <span class="token key atrule">general</span><span class="token punctuation">:</span> Alacritty
+
+  <span class="token comment"># GTK theme variant (Linux/BSD only)</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.</span>
+  <span class="token comment"># Set this to `None` to use the default theme variant.</span>
+  <span class="token comment">#gtk_theme_variant: None</span>
+
+<span class="token key atrule">scrolling</span><span class="token punctuation">:</span>
+  <span class="token comment"># Maximum number of lines in the scrollback buffer.</span>
+  <span class="token comment"># Specifying '0' will disable scrolling.</span>
+  <span class="token key atrule">history</span><span class="token punctuation">:</span> <span class="token number">5000</span>
+
+  <span class="token comment"># Number of lines the viewport will move for every line scrolled when</span>
+  <span class="token comment"># scrollback is enabled (history &gt; 0).</span>
+  <span class="token comment">#multiplier: 3</span>
+
+  <span class="token comment"># Scroll to the bottom when new text is written to the terminal.</span>
+  <span class="token comment">#auto_scroll: false</span>
+
+<span class="token comment"># Spaces per Tab (changes require restart)</span>
+<span class="token comment">#</span>
+<span class="token comment"># This setting defines the width of a tab in cells.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Some applications, like Emacs, rely on knowing about the width of a tab.</span>
+<span class="token comment"># To prevent unexpected behavior in these applications, it's also required to</span>
+<span class="token comment"># change the `it` value in terminfo when altering this setting.</span>
+<span class="token comment">#tabspaces: 8</span>
+
+<span class="token comment"># Font configuration</span>
+<span class="token key atrule">font</span><span class="token punctuation">:</span>
+  <span class="token comment"># Normal (roman) font face</span>
+  <span class="token key atrule">normal</span><span class="token punctuation">:</span>
+    <span class="token comment"># Font family</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># Default:</span>
+    <span class="token comment">#   - (macOS) Menlo</span>
+    <span class="token comment">#   - (Linux/BSD) monospace</span>
+    <span class="token comment">#   - (Windows) Consolas</span>
+    <span class="token comment"># family: SauceCodePro Nerd Font</span>
+    <span class="token comment"># family: CodeNewRoman Nerd Font</span>
+    <span class="token comment"># family: RobotoMono Nerd Font</span>
+    <span class="token comment"># family: Hack</span>
+    <span class="token comment"># family: JetBrains Mono</span>
+    <span class="token comment"># family: UbuntuMono Nerd Font</span>
+    <span class="token comment"># family: Monofur Nerd Font</span>
+    <span class="token comment"># family: TerminessTTF Nerd Font</span>
+    <span class="token key atrule">family</span><span class="token punctuation">:</span> Mononoki Nerd Font
+
+    <span class="token comment"># The `style` can be specified to pick a specific face.</span>
+    <span class="token key atrule">style</span><span class="token punctuation">:</span> Regular
+
+  <span class="token comment"># Bold font face</span>
+  <span class="token key atrule">bold</span><span class="token punctuation">:</span>
+    <span class="token comment"># Font family</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># If the bold family is not specified, it will fall back to the</span>
+    <span class="token comment"># value specified for the normal font.</span>
+    <span class="token comment"># family: SauceCodePro Nerd Font</span>
+    <span class="token comment"># family: CodeNewRoman Nerd Font</span>
+    <span class="token comment"># family: RobotoMono Nerd Font</span>
+    <span class="token comment"># family: Hack</span>
+    <span class="token comment"># family: JetBrains Mono</span>
+    <span class="token comment"># family: UbuntuMono Nerd Font</span>
+    <span class="token comment"># family: Monofur Nerd Font</span>
+    <span class="token comment"># family: TerminessTTF Nerd Font</span>
+    <span class="token key atrule">family</span><span class="token punctuation">:</span> Mononoki Nerd Font
+
+    <span class="token comment"># The `style` can be specified to pick a specific face.</span>
+    <span class="token key atrule">style</span><span class="token punctuation">:</span> Bold
+
+  <span class="token comment"># Italic font face</span>
+  <span class="token key atrule">italic</span><span class="token punctuation">:</span>
+    <span class="token comment"># Font family</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># If the italic family is not specified, it will fall back to the</span>
+    <span class="token comment"># value specified for the normal font.</span>
+    <span class="token comment"># family: SauceCodePro Nerd Font Mono</span>
+    <span class="token comment"># family: CodeNewRoman Nerd Font</span>
+    <span class="token comment"># family: RobotoMono Nerd Font</span>
+    <span class="token comment"># family: Hack</span>
+    <span class="token comment"># family: JetBrains Mono</span>
+    <span class="token comment"># family: UbuntuMono Nerd Font</span>
+    <span class="token comment"># family: Monofuritalic Nerd Font Mono</span>
+    <span class="token comment"># family: TerminessTTF Nerd Font</span>
+    <span class="token key atrule">family</span><span class="token punctuation">:</span> Mononoki Nerd Font
+
+    <span class="token comment"># The `style` can be specified to pick a specific face.</span>
+    <span class="token key atrule">style</span><span class="token punctuation">:</span> Italic
+
+  <span class="token comment"># Bold italic font face</span>
+  <span class="token key atrule">bold_italic</span><span class="token punctuation">:</span>
+    <span class="token comment"># Font family</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># If the bold italic family is not specified, it will fall back to the</span>
+    <span class="token comment"># value specified for the normal font.</span>
+    <span class="token comment"># family: SauceCodePro Nerd Font Mono</span>
+    <span class="token comment"># family: CodeNewRoman Nerd Font</span>
+    <span class="token comment"># family: RobotoMono Nerd Font</span>
+    <span class="token comment"># family: Hack</span>
+    <span class="token comment"># family: JetBrains Mono</span>
+    <span class="token comment"># family: UbuntuMono Nerd Font</span>
+    <span class="token comment"># family: Monofuritalic Nerd Font Mono</span>
+    <span class="token comment"># family: TerminessTTF Nerd Font</span>
+    <span class="token key atrule">family</span><span class="token punctuation">:</span> Mononoki Nerd Font
+
+    <span class="token comment"># The `style` can be specified to pick a specific face.</span>
+    <span class="token key atrule">style</span><span class="token punctuation">:</span> Bold Italic
+
+  <span class="token comment"># Point size</span>
+  <span class="token key atrule">size</span><span class="token punctuation">:</span> <span class="token number">14.0</span>
+
+  <span class="token comment"># Offset is the extra space around each character. `offset.y` can be thought of</span>
+  <span class="token comment"># as modifying the line spacing, and `offset.x` as modifying the letter spacing.</span>
+  <span class="token key atrule">offset</span><span class="token punctuation">:</span>
+    <span class="token key atrule">x</span><span class="token punctuation">:</span> <span class="token number">1</span>
+    <span class="token key atrule">y</span><span class="token punctuation">:</span> <span class="token number">1</span>
+
+  <span class="token comment"># Glyph offset determines the locations of the glyphs within their cells with</span>
+  <span class="token comment"># the default being at the bottom. Increasing `x` moves the glyph to the right,</span>
+  <span class="token comment"># increasing `y` moves the glyph upwards.</span>
+  <span class="token comment">#glyph_offset:</span>
+  <span class="token comment">#  x: 0</span>
+  <span class="token comment">#  y: 0</span>
+
+  <span class="token comment"># Thin stroke font rendering (macOS only)</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Thin strokes are suitable for retina displays, but for non-retina screens</span>
+  <span class="token comment"># it is recommended to set `use_thin_strokes` to `false`</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># macOS &gt;= 10.14.x:</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># If the font quality on non-retina display looks bad then set</span>
+  <span class="token comment"># `use_thin_strokes` to `true` and enable font smoothing by running the</span>
+  <span class="token comment"># following command:</span>
+  <span class="token comment">#   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># This is a global setting and will require a log out or restart to take</span>
+  <span class="token comment"># effect.</span>
+  <span class="token comment">#use_thin_strokes: true</span>
+
+<span class="token comment"># If `true`, bold text is drawn using the bright color variants.</span>
+<span class="token comment">#draw_bold_text_with_bright_colors: true</span>
+
+<span class="token comment"># Colors (Tomorrow Night Bright)</span>
+<span class="token key atrule">colors</span><span class="token punctuation">:</span>
+  <span class="token comment"># Default colors</span>
+  <span class="token key atrule">primary</span><span class="token punctuation">:</span>
+    <span class="token key atrule">background</span><span class="token punctuation">:</span> <span class="token string">'0x002b36'</span>
+    <span class="token key atrule">foreground</span><span class="token punctuation">:</span> <span class="token string">'0x93a1a1'</span>
+
+  <span class="token comment"># Colors the cursor will use if `custom_cursor_colors` is true</span>
+  <span class="token key atrule">cursor</span><span class="token punctuation">:</span>
+    <span class="token key atrule">text</span><span class="token punctuation">:</span> <span class="token string">'0x002b36'</span>
+    <span class="token key atrule">cursor</span><span class="token punctuation">:</span> <span class="token string">'0x93a1a1'</span>
+
+  <span class="token comment"># Normal colors</span>
+  <span class="token key atrule">normal</span><span class="token punctuation">:</span>
+    <span class="token key atrule">black</span><span class="token punctuation">:</span>   <span class="token string">'0x002b36'</span>
+    <span class="token key atrule">red</span><span class="token punctuation">:</span>     <span class="token string">'0xdc322f'</span>
+    <span class="token key atrule">green</span><span class="token punctuation">:</span>   <span class="token string">'0x859900'</span>
+    <span class="token key atrule">yellow</span><span class="token punctuation">:</span>  <span class="token string">'0xb58900'</span>
+    <span class="token key atrule">blue</span><span class="token punctuation">:</span>    <span class="token string">'0x268bd2'</span>
+    <span class="token key atrule">magenta</span><span class="token punctuation">:</span> <span class="token string">'0x6c71c4'</span>
+    <span class="token key atrule">cyan</span><span class="token punctuation">:</span>    <span class="token string">'0x2aa198'</span>
+    <span class="token key atrule">white</span><span class="token punctuation">:</span>   <span class="token string">'0x93a1a1'</span>
+
+  <span class="token comment"># Bright colors</span>
+  <span class="token key atrule">bright</span><span class="token punctuation">:</span>
+    <span class="token key atrule">black</span><span class="token punctuation">:</span>   <span class="token string">'0x657b83'</span>
+    <span class="token key atrule">red</span><span class="token punctuation">:</span>     <span class="token string">'0xdc322f'</span>
+    <span class="token key atrule">green</span><span class="token punctuation">:</span>   <span class="token string">'0x859900'</span>
+    <span class="token key atrule">yellow</span><span class="token punctuation">:</span>  <span class="token string">'0xb58900'</span>
+    <span class="token key atrule">blue</span><span class="token punctuation">:</span>    <span class="token string">'0x268bd2'</span>
+    <span class="token key atrule">magenta</span><span class="token punctuation">:</span> <span class="token string">'0x6c71c4'</span>
+    <span class="token key atrule">cyan</span><span class="token punctuation">:</span>    <span class="token string">'0x2aa198'</span>
+    <span class="token key atrule">white</span><span class="token punctuation">:</span>   <span class="token string">'0xfdf6e3'</span>
+
+  <span class="token key atrule">indexed_colors</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">index</span><span class="token punctuation">:</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token string">'0xcb4b16'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">index</span><span class="token punctuation">:</span> <span class="token number">17</span><span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token string">'0xd33682'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">index</span><span class="token punctuation">:</span> <span class="token number">18</span><span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token string">'0x073642'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">index</span><span class="token punctuation">:</span> <span class="token number">19</span><span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token string">'0x586e75'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">index</span><span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token string">'0x839496'</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">index</span><span class="token punctuation">:</span> <span class="token number">21</span><span class="token punctuation">,</span> <span class="token key atrule">color</span><span class="token punctuation">:</span> <span class="token string">'0xeee8d5'</span> <span class="token punctuation">}</span>
+
+<span class="token comment"># Visual Bell</span>
+<span class="token comment">#</span>
+<span class="token comment"># Any time the BEL code is received, Alacritty &quot;rings&quot; the visual bell. Once</span>
+<span class="token comment"># rung, the terminal background will be set to white and transition back to the</span>
+<span class="token comment"># default background color. You can control the rate of this transition by</span>
+<span class="token comment"># setting the `duration` property (represented in milliseconds). You can also</span>
+<span class="token comment"># configure the transition function by setting the `animation` property.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Values for `animation`:</span>
+<span class="token comment">#   - Ease</span>
+<span class="token comment">#   - EaseOut</span>
+<span class="token comment">#   - EaseOutSine</span>
+<span class="token comment">#   - EaseOutQuad</span>
+<span class="token comment">#   - EaseOutCubic</span>
+<span class="token comment">#   - EaseOutQuart</span>
+<span class="token comment">#   - EaseOutQuint</span>
+<span class="token comment">#   - EaseOutExpo</span>
+<span class="token comment">#   - EaseOutCirc</span>
+<span class="token comment">#   - Linear</span>
+<span class="token comment">#</span>
+<span class="token comment"># Specifying a `duration` of `0` will disable the visual bell.</span>
+<span class="token comment">#visual_bell:</span>
+<span class="token comment">#  animation: EaseOutExpo</span>
+<span class="token comment">#  duration: 0</span>
+<span class="token comment">#  color: '0xffffff'</span>
+
+<span class="token comment"># Background opacity</span>
+<span class="token comment">#</span>
+<span class="token comment"># Window opacity as a floating point number from `0.0` to `1.0`.</span>
+<span class="token comment"># The value `0.0` is completely transparent and `1.0` is opaque.</span>
+<span class="token key atrule">background_opacity</span><span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token comment"># background_opacity: 0.95</span>
+
+<span class="token comment">#selection:</span>
+  <span class="token comment">#semantic_escape_chars: &quot;,│`|:\&quot;' ()[]{}&lt;&gt;\t&quot;</span>
+
+  <span class="token comment"># When set to `true`, selected text will be copied to the primary clipboard.</span>
+  <span class="token comment">#save_to_clipboard: false</span>
+
+<span class="token comment"># Allow terminal applications to change Alacritty's window title.</span>
+<span class="token comment">#dynamic_title: true</span>
+
+<span class="token comment">#cursor:</span>
+  <span class="token comment"># Cursor style</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Values for `style`:</span>
+  <span class="token comment">#   - ▇ Block</span>
+  <span class="token comment">#   - _ Underline</span>
+  <span class="token comment">#   - | Beam</span>
+  <span class="token comment">#style: Block</span>
+
+  <span class="token comment"># If this is `true`, the cursor will be rendered as a hollow box when the</span>
+  <span class="token comment"># window is not focused.</span>
+  <span class="token comment">#unfocused_hollow: true</span>
+
+<span class="token comment"># Live config reload (changes require restart)</span>
+<span class="token comment">#live_config_reload: true</span>
+
+<span class="token comment"># Shell</span>
+<span class="token comment">#</span>
+<span class="token comment"># You can set `shell.program` to the path of your favorite shell, e.g. `/bin/fish`.</span>
+<span class="token comment"># Entries in `shell.args` are passed unmodified as arguments to the shell.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Default:</span>
+<span class="token comment">#   - (macOS) /bin/bash --login</span>
+<span class="token comment">#   - (Linux/BSD) user login shell</span>
+<span class="token comment">#   - (Windows) powershell</span>
+<span class="token comment">#shell:</span>
+<span class="token comment">#  program: /bin/bash</span>
+<span class="token comment">#  args:</span>
+<span class="token comment">#    - --login</span>
+
+<span class="token comment"># Startup directory</span>
+<span class="token comment">#</span>
+<span class="token comment"># Directory the shell is started in. If this is unset, or `None`, the working</span>
+<span class="token comment"># directory of the parent process will be used.</span>
+<span class="token comment">#working_directory: None</span>
+
+<span class="token comment"># WinPTY backend (Windows only)</span>
+<span class="token comment">#</span>
+<span class="token comment"># Alacritty defaults to using the newer ConPTY backend if it is available,</span>
+<span class="token comment"># since it resolves a lot of bugs and is quite a bit faster. If it is not</span>
+<span class="token comment"># available, the the WinPTY backend will be used instead.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Setting this option to `true` makes Alacritty use the legacy WinPTY backend,</span>
+<span class="token comment"># even if the ConPTY backend is available.</span>
+<span class="token comment">#winpty_backend: false</span>
+
+<span class="token comment"># Send ESC (\x1b) before characters when alt is pressed.</span>
+<span class="token comment">#alt_send_esc: true</span>
+
+<span class="token comment">#debug:</span>
+  <span class="token comment"># Display the time it takes to redraw each frame.</span>
+  <span class="token comment">#render_timer: false</span>
+
+  <span class="token comment"># Keep the log file after quitting Alacritty.</span>
+  <span class="token comment">#persistent_logging: false</span>
+
+  <span class="token comment"># Log level</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># Values for `log_level`:</span>
+  <span class="token comment">#   - None</span>
+  <span class="token comment">#   - Error</span>
+  <span class="token comment">#   - Warn</span>
+  <span class="token comment">#   - Info</span>
+  <span class="token comment">#   - Debug</span>
+  <span class="token comment">#   - Trace</span>
+  <span class="token comment">#log_level: Warn</span>
+
+  <span class="token comment"># Print all received window events.</span>
+  <span class="token comment">#print_events: false</span>
+
+  <span class="token comment"># Record all characters and escape sequences as test data.</span>
+  <span class="token comment">#ref_test: false</span>
+
+<span class="token comment">#mouse:</span>
+  <span class="token comment"># Click settings</span>
+  <span class="token comment">#</span>
+  <span class="token comment"># The `double_click` and `triple_click` settings control the time</span>
+  <span class="token comment"># alacritty should wait for accepting multiple clicks as one double</span>
+  <span class="token comment"># or triple click.</span>
+  <span class="token comment">#double_click: { threshold: 300 }</span>
+  <span class="token comment">#triple_click: { threshold: 300 }</span>
+
+  <span class="token comment"># If this is `true`, the cursor is temporarily hidden when typing.</span>
+  <span class="token comment">#hide_when_typing: false</span>
+
+  <span class="token comment">#url:</span>
+    <span class="token comment"># URL launcher</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># This program is executed when clicking on a text which is recognized as a URL.</span>
+    <span class="token comment"># The URL is always added to the command as the last parameter.</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># When set to `None`, URL launching will be disabled completely.</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># Default:</span>
+    <span class="token comment">#   - (macOS) open</span>
+    <span class="token comment">#   - (Linux/BSD) xdg-open</span>
+    <span class="token comment">#   - (Windows) explorer</span>
+    <span class="token comment">#launcher:</span>
+    <span class="token comment">#  program: xdg-open</span>
+    <span class="token comment">#  args: []</span>
+
+    <span class="token comment"># URL modifiers</span>
+    <span class="token comment">#</span>
+    <span class="token comment"># These are the modifiers that need to be held down for opening URLs when clicking</span>
+    <span class="token comment"># on them. The available modifiers are documented in the key binding section.</span>
+    <span class="token comment">#modifiers: None</span>
+
+<span class="token comment"># Mouse bindings</span>
+<span class="token comment">#</span>
+<span class="token comment"># Mouse bindings are specified as a list of objects, much like the key</span>
+<span class="token comment"># bindings further below.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Each mouse binding will specify a:</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `mouse`:</span>
+<span class="token comment">#</span>
+<span class="token comment">#   - Middle</span>
+<span class="token comment">#   - Left</span>
+<span class="token comment">#   - Right</span>
+<span class="token comment">#   - Numeric identifier such as `5`</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `action` (see key bindings)</span>
+<span class="token comment">#</span>
+<span class="token comment"># And optionally:</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `mods` (see key bindings)</span>
+<span class="token comment">#mouse_bindings:</span>
+<span class="token comment">#  - { mouse: Middle, action: PasteSelection }</span>
+
+<span class="token comment"># Key bindings</span>
+<span class="token comment">#</span>
+<span class="token comment"># Key bindings are specified as a list of objects. For example, this is the</span>
+<span class="token comment"># default paste binding:</span>
+<span class="token comment">#</span>
+<span class="token comment"># `- { key: V, mods: Control|Shift, action: Paste }`</span>
+<span class="token comment">#</span>
+<span class="token comment"># Each key binding will specify a:</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `key`: Identifier of the key pressed</span>
+<span class="token comment">#</span>
+<span class="token comment">#    - A-Z</span>
+<span class="token comment">#    - F1-F24</span>
+<span class="token comment">#    - Key0-Key9</span>
+<span class="token comment">#</span>
+<span class="token comment">#    A full list with available key codes can be found here:</span>
+<span class="token comment">#    https://docs.rs/glutin/*/glutin/event/enum.VirtualKeyCode.html#variants</span>
+<span class="token comment">#</span>
+<span class="token comment">#    Instead of using the name of the keys, the `key` field also supports using</span>
+<span class="token comment">#    the scancode of the desired key. Scancodes have to be specified as a</span>
+<span class="token comment">#    decimal number. This command will allow you to display the hex scancodes</span>
+<span class="token comment">#    for certain keys:</span>
+<span class="token comment">#</span>
+<span class="token comment">#       `showkey --scancodes`.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Then exactly one of:</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `chars`: Send a byte sequence to the running application</span>
+<span class="token comment">#</span>
+<span class="token comment">#    The `chars` field writes the specified string to the terminal. This makes</span>
+<span class="token comment">#    it possible to pass escape sequences. To find escape codes for bindings</span>
+<span class="token comment">#    like `PageUp` (`&quot;\x1b[5~&quot;`), you can run the command `showkey -a` outside</span>
+<span class="token comment">#    of tmux. Note that applications use terminfo to map escape sequences back</span>
+<span class="token comment">#    to keys. It is therefore required to update the terminfo when changing an</span>
+<span class="token comment">#    escape sequence.</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `action`: Execute a predefined action</span>
+<span class="token comment">#</span>
+<span class="token comment">#   - Copy</span>
+<span class="token comment">#   - Paste</span>
+<span class="token comment">#   - PasteSelection</span>
+<span class="token comment">#   - IncreaseFontSize</span>
+<span class="token comment">#   - DecreaseFontSize</span>
+<span class="token comment">#   - ResetFontSize</span>
+<span class="token comment">#   - ScrollPageUp</span>
+<span class="token comment">#   - ScrollPageDown</span>
+<span class="token comment">#   - ScrollLineUp</span>
+<span class="token comment">#   - ScrollLineDown</span>
+<span class="token comment">#   - ScrollToTop</span>
+<span class="token comment">#   - ScrollToBottom</span>
+<span class="token comment">#   - ClearHistory</span>
+<span class="token comment">#   - Hide</span>
+<span class="token comment">#   - Minimize</span>
+<span class="token comment">#   - Quit</span>
+<span class="token comment">#   - ToggleFullscreen</span>
+<span class="token comment">#   - SpawnNewInstance</span>
+<span class="token comment">#   - ClearLogNotice</span>
+<span class="token comment">#   - ReceiveChar</span>
+<span class="token comment">#   - None</span>
+<span class="token comment">#</span>
+<span class="token comment">#   (macOS only):</span>
+<span class="token comment">#   - ToggleSimpleFullscreen: Enters fullscreen without occupying another space</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `command`: Fork and execute a specified command plus arguments</span>
+<span class="token comment">#</span>
+<span class="token comment">#    The `command` field must be a map containing a `program` string and an</span>
+<span class="token comment">#    `args` array of command line parameter strings. For example:</span>
+<span class="token comment">#       `{ program: &quot;alacritty&quot;, args: [&quot;-e&quot;, &quot;vttest&quot;] }`</span>
+<span class="token comment">#</span>
+<span class="token comment"># And optionally:</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `mods`: Key modifiers to filter binding actions</span>
+<span class="token comment">#</span>
+<span class="token comment">#    - Command</span>
+<span class="token comment">#    - Control</span>
+<span class="token comment">#    - Option</span>
+<span class="token comment">#    - Super</span>
+<span class="token comment">#    - Shift</span>
+<span class="token comment">#    - Alt</span>
+<span class="token comment">#</span>
+<span class="token comment">#    Multiple `mods` can be combined using `|` like this:</span>
+<span class="token comment">#       `mods: Control|Shift`.</span>
+<span class="token comment">#    Whitespace and capitalization are relevant and must match the example.</span>
+<span class="token comment">#</span>
+<span class="token comment"># - `mode`: Indicate a binding for only specific terminal reported modes</span>
+<span class="token comment">#</span>
+<span class="token comment">#    This is mainly used to send applications the correct escape sequences</span>
+<span class="token comment">#    when in different modes.</span>
+<span class="token comment">#</span>
+<span class="token comment">#    - AppCursor</span>
+<span class="token comment">#    - AppKeypad</span>
+<span class="token comment">#    - Alt</span>
+<span class="token comment">#</span>
+<span class="token comment">#    A `~` operator can be used before a mode to apply the binding whenever</span>
+<span class="token comment">#    the mode is *not* active, e.g. `~Alt`.</span>
+<span class="token comment">#</span>
+<span class="token comment"># Bindings are always filled by default, but will be replaced when a new</span>
+<span class="token comment"># binding with the same triggers is defined. To unset a default binding, it can</span>
+<span class="token comment"># be mapped to the `ReceiveChar` action. Alternatively, you can use `None` for</span>
+<span class="token comment"># a no-op if you do not wish to receive input characters for that binding.</span>
+<span class="token key atrule">key_bindings</span><span class="token punctuation">:</span>
+    <span class="token comment"># (Windows, Linux, and BSD only)</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> V<span class="token punctuation">,</span>        <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">|</span>Shift<span class="token punctuation">,</span> <span class="token key atrule">action</span><span class="token punctuation">:</span> Paste            <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> C<span class="token punctuation">,</span>        <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">|</span>Shift<span class="token punctuation">,</span> <span class="token key atrule">action</span><span class="token punctuation">:</span> Copy             <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Insert<span class="token punctuation">,</span>   <span class="token key atrule">mods</span><span class="token punctuation">:</span> Shift<span class="token punctuation">,</span>         <span class="token key atrule">action</span><span class="token punctuation">:</span> PasteSelection   <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Key0<span class="token punctuation">,</span>     <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span>       <span class="token key atrule">action</span><span class="token punctuation">:</span> ResetFontSize    <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Equals<span class="token punctuation">,</span>   <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span>       <span class="token key atrule">action</span><span class="token punctuation">:</span> IncreaseFontSize <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Add<span class="token punctuation">,</span>      <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span>       <span class="token key atrule">action</span><span class="token punctuation">:</span> IncreaseFontSize <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Subtract<span class="token punctuation">,</span> <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span>       <span class="token key atrule">action</span><span class="token punctuation">:</span> DecreaseFontSize <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Minus<span class="token punctuation">,</span>    <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span>       <span class="token key atrule">action</span><span class="token punctuation">:</span> DecreaseFontSize <span class="token punctuation">}</span>
+
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Paste<span class="token punctuation">,</span>                    <span class="token key atrule">action</span><span class="token punctuation">:</span> Paste                            <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Copy<span class="token punctuation">,</span>                     <span class="token key atrule">action</span><span class="token punctuation">:</span> Copy                             <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> L<span class="token punctuation">,</span>         <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span> <span class="token key atrule">action</span><span class="token punctuation">:</span> ClearLogNotice                   <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> L<span class="token punctuation">,</span>         <span class="token key atrule">mods</span><span class="token punctuation">:</span> Control<span class="token punctuation">,</span> <span class="token key atrule">chars</span><span class="token punctuation">:</span> <span class="token string">&quot;\x0c&quot;</span>                            <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> PageUp<span class="token punctuation">,</span>    <span class="token key atrule">mods</span><span class="token punctuation">:</span> Shift<span class="token punctuation">,</span>   <span class="token key atrule">action</span><span class="token punctuation">:</span> ScrollPageUp<span class="token punctuation">,</span>   <span class="token key atrule">mode</span><span class="token punctuation">:</span> ~Alt       <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> PageDown<span class="token punctuation">,</span>  <span class="token key atrule">mods</span><span class="token punctuation">:</span> Shift<span class="token punctuation">,</span>   <span class="token key atrule">action</span><span class="token punctuation">:</span> ScrollPageDown<span class="token punctuation">,</span> <span class="token key atrule">mode</span><span class="token punctuation">:</span> ~Alt       <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> Home<span class="token punctuation">,</span>      <span class="token key atrule">mods</span><span class="token punctuation">:</span> Shift<span class="token punctuation">,</span>   <span class="token key atrule">action</span><span class="token punctuation">:</span> ScrollToTop<span class="token punctuation">,</span>    <span class="token key atrule">mode</span><span class="token punctuation">:</span> ~Alt       <span class="token punctuation">}</span>
+  <span class="token punctuation">-</span> <span class="token punctuation">{</span> <span class="token key atrule">key</span><span class="token punctuation">:</span> End<span class="token punctuation">,</span>       <span class="token key atrule">mods</span><span class="token punctuation">:</span> Shift<span class="token punctuation">,</span>   <span class="token key atrule">action</span><span class="token punctuation">:</span> ScrollToBottom<span class="token punctuation">,</span> <span class="token key atrule">mode</span><span class="token punctuation">:</span> ~Alt       <span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/cheatsheet/assets/js/app.c53346be.js" defer></script><script src="/cheatsheet/assets/js/2.3412115d.js" defer></script><script src="/cheatsheet/assets/js/26.c1580b1c.js" defer></script>
+  </body>
+</html>
