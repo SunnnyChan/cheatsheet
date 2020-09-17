@@ -80,13 +80,13 @@ module.exports = {
       },
       {
         title: '知识工具',   // 必要的
-        path: '/knowledge/',      // 可选的
+        path: '/editor/',      // 可选的
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
-          '/knowledge/markdown/',
-          '/knowledge/latex/',
-          '/knowledge/xmind/'
+          '/editor/markdown/',
+          '/editor/latex/',
+          '/editor/xmind/'
         ]
       },
       {
