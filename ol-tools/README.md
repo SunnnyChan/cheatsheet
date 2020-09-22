@@ -10,9 +10,6 @@
 * [Logo搜索 - 寻找产品logo](http://instantlogosearch.com/)  
 * [kasuganosoras/logo-maker - PornHub 以及 YouTube 风格的 Logo](https://github.com/kasuganosoras/logo-maker)
 
-## 文件处理
-* [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)
-
 ## 图片处理
 
 * [改图宝](https://www.gaitubao.com/)
@@ -22,6 +19,11 @@
 
 * [Aconvert.com](https://www.aconvert.com/cn/)    
 在线转换各类PDF，文档，电子书，图像，图标，视频，音频和压缩文件。  
+
+* [Excel 转 HTML](http://www.docpe.com/excel/excel-to-html.aspx)  
+
+* [Speedpdf](https://speedpdf.com/zh-cn/)    
+PDF 分享、转换、压缩、安全、合并、拆分。  
 
 ## 电子书搜索
 
