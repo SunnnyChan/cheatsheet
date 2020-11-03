@@ -1,5 +1,7 @@
 # Git  
 
+* [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/)
+
 ## 工具
 
 * [gitignore.io - Create useful .gitignore files for your project](https://www.gitignore.io/)  
